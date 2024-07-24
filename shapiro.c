@@ -172,6 +172,7 @@ int main(int argc, char * argv[])
        diff_sum *= 2.0;
 
        printf("\n");
+       printf("distance to center of Sun=%.0f km (%.03f the radius of Sun)\n", dist_Sun / 1000.0, dist_Sun / r_Sun);   
        printf("summary additional distance=%.2f m resulting delay=%.8f s\n", sum, sum / c);
        printf("difference of distance=%.2f m resulting delay=%.8f s resulting summary delay=%.8f s\n", diff_sum, diff_sum / c, (sum - diff_sum) / c );
 
