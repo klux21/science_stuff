@@ -103,11 +103,7 @@ const double rb_Venus   = 0.7233   * AE; /* average radius of orbit of Venus */
 const double rb_Earth   = AE;            /* average radius of orbit of Earth */
 
 
-/* ------------------------------------------------------------------------- *\
-   main function
-\* ------------------------------------------------------------------------- */
-
-int main(int argc, char * argv[])
+int CalculateShapiro()
 {
    int iret = 0;
 
@@ -181,6 +177,22 @@ int main(int argc, char * argv[])
        else
          dist_Sun = rb_Venus;
    }
+
+   iret = 1;
+   return(iret);
+}/* CalculateShapiro() */
+
+
+/* ------------------------------------------------------------------------- *\
+   main function
+\* ------------------------------------------------------------------------- */
+
+int main(int argc, char * argv[])
+{
+   int iret = 0;
+
+   if(!CalculateShapiro())
+      iret = 1;
 
    return (iret);
 }/* main() */
