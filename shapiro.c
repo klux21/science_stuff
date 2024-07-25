@@ -139,101 +139,112 @@ int CalculateShapiro()
    /* calculation of Shapiro delay */
    while(arc >= 0.0)
    {
-       double r        = 0.0; /* current distance from Earth or Venus */
-       double sum      = 0.0;
+      double r        = 0.0; /* current distance from Earth or Venus */
+      double sum      = 0.0;
 #if CHECK_DIRECTION_DEPENDENCY
-       double diff_sum = 0.0; /* difference if assuming lower tangential speed that some people claim */
+      double diff_sum = 0.0; /* difference if assuming lower tangential speed that some people claim */
 #endif
-       double dist_max = 0.0;
-       double dist_Venus = sqrt(rb_Venus * rb_Venus + rb_Earth * rb_Earth - 2.0 * rb_Venus * rb_Earth * cos(arc)); /* distance between Earth and Venus to according the angle and the law of cosines */
+      double dist_max = 0.0;
+      double dist_Venus = sqrt(rb_Venus * rb_Venus + rb_Earth * rb_Earth - 2.0 * rb_Venus * rb_Earth * cos(arc)); /* distance between Earth and Venus to according the angle and the law of cosines */
 
-       dist_Sun = sin(arc) / dist_Venus * rb_Earth * rb_Venus; /* minimal distance of the Sun to the ray according to the law of sines and that it just depends on the sinus
-                                                                  of angle between the Sun and the other planet multiplied by the distance of the sun */
+      dist_Sun = sin(arc) / dist_Venus * rb_Earth * rb_Venus; /* minimal distance of the Sun to the ray according to the law of sines and that it just depends on the sinus
+                                                                 of angle between the Sun and the other planet multiplied by the distance of the sun */
 
-       printf("\n");
-       /* printf("sin(as)=%.5f sin(av)=%.5f  rmax=%.3f times r_Sun\n", sin(arc), sin(arc) / dist_Venus * rb_Earth, rb_Venus / r_Sun); */
-       printf("%.0f days after starting day when the angle between Earth and Venus is %.4f°\n", days, arc * 360.0 / 2.0 / M_PI);
-       printf("distance of Venus is %.0f km\n", dist_Venus / 1000.0);
-       printf("%s the Sun at %.4f times the radius of the Sun\n", arc >= (0.5 * M_PI) ? "passing" : "would passing", dist_Sun/r_Sun);   
+      printf("\n");
+      /* printf("sin(as)=%.5f sin(av)=%.5f  rmax=%.3f times r_Sun\n", sin(arc), sin(arc) / dist_Venus * rb_Earth, rb_Venus / r_Sun); */
+      printf("%.0f days after starting day when the angle between Earth and Venus is %.4f°\n", days, arc * 360.0 / 2.0 / M_PI);
+      printf("distance of Venus is %.0f km\n", dist_Venus / 1000.0);
+      printf("%s the Sun at %.4f times the radius of the Sun\n", arc >= (0.5 * M_PI) ? "passing" : "would passing", dist_Sun/r_Sun);
 
+      /* We know the distance of the sun that is perpendicular the direction to Venus and radius of the simplified circular orbits of the planets.
+         Now we iterate the additional lengths from the point where that distance of the sun hits the path ouf our radar waves.
+         Let's begin with the part the direction of the Venus. */
 
-       if(arc <= (0.5 * M_PI))
-          dist_max = 0.0; /* we need to skip this */
-       else
-          dist_max = sqrt(rb_Venus * rb_Venus - dist_Sun * dist_Sun);
+      if(arc <= (0.5 * M_PI))
+         dist_max = 0.0; /* We need to skip this because Venus is closer to the Earth than our crossing point in this case. */
+      else
+         dist_max = sqrt(rb_Venus * rb_Venus - dist_Sun * dist_Sun);
 
-       r = dist_max;
-       while(r > 0.0)
-       {
-          double cur_pos = dist_max - r;
-          double dist    = sqrt (cur_pos * cur_pos + dist_Sun * dist_Sun); /* current distance of sun */
-          double sqr_v2  = 2.0 * G * m_Sun / dist - v2_Earth; /* escape velocity at current position from sun */
-          sum += 1000.0 * (sqr_v2 / (c*c - sqr_v2)); /* length increasement because of Lorentz factor */
-
-#if CHECK_DIRECTION_DEPENDENCY
-          if(sqr_v2 > 0.0)
-             diff_sum += 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
-#endif
-
-          if(r > 1000.0)
-             r -= 1000.0;
-          else
-             r = 0.0;
-       }
-
-       dist_max = rb_Earth * rb_Earth - dist_Sun * dist_Sun;
-
-       if(dist_max <= 0.0)
-          dist_max = 0.0; /* ensure this */
-       else
-          dist_max = sqrt(dist_max);
-
-       r = dist_max;
-
-       if(arc < 0.5 * M_PI)
-          r = dist_Venus; /* we have to iterate from current distance of Venus and to ignore the rest */
-
-       while(r > 0.0)
-       {
-          double cur_pos = dist_max - r;
-          double dist    = sqrt (cur_pos * cur_pos + dist_Sun * dist_Sun); /* current distance of sun */
-          double sqr_v2  = 2.0 * G * m_Sun / dist - v2_Earth; /* escape velocity at current position from sun */
-          sum += 1000.0 * (sqr_v2 / (c*c - sqr_v2)); /* length increasement because of Lorentz factor */
+      r = dist_max;
+      while(r > 0.0)
+      {
+         double cur_pos = dist_max - r;
+         double dist    = sqrt (cur_pos * cur_pos + dist_Sun * dist_Sun); /* current distance of sun */
+         double sqr_v2  = 2.0 * G * m_Sun / dist - v2_Earth; /* escape velocity at current position from sun */
+         sum += 1000.0 * (sqr_v2 / (c*c - sqr_v2)); /* length increasement because of Lorentz factor */
 
 #if CHECK_DIRECTION_DEPENDENCY
-          if(sqr_v2 > 0.0)
-             diff_sum += 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
+         /* dist_Sun / dist is the sine of the angle between the direction of movement according to the law of sines
+            and the fact that dist is the site opposed the right angle which sine is 1. The sine of that angle multiplied
+            by the length of that vector is the part of the vector that is perpendicular to the direction of Sun. */
+         if(sqr_v2 > 0.0)
+            diff_sum += 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
 #endif
-          if(r > 1000.0)
-             r -= 1000.0;
-          else
-             r = 0.0;
-       }
 
-       sum *= 2.0;
-       printf("distance to center of Sun=%.0f km (%.03f the radius of Sun)\n", dist_Sun / 1000.0, dist_Sun / r_Sun);   
-       printf("summary additional distance=%.2f m resulting delay=%.2f us\n", sum, sum / c * 1000000.0);
+         if(r > 1000.0)
+            r -= 1000.0;
+         else
+            r = 0.0;
+      }
+
+      /* Let's iterate the part towards Earth now. */
+      dist_max = rb_Earth * rb_Earth - dist_Sun * dist_Sun;
+
+      if(dist_max <= 0.0)
+         dist_max = 0.0; /* ensure this */
+      else
+         dist_max = sqrt(dist_max);
+
+      r = dist_max;
+
+      if(arc < 0.5 * M_PI)
+         r = dist_Venus; /* We have to iterate from current position of Venus only and to ignore the rest */
+
+      while(r > 0.0)
+      {
+         double cur_pos = dist_max - r;
+         double dist    = sqrt (cur_pos * cur_pos + dist_Sun * dist_Sun); /* current distance of sun */
+         double sqr_v2  = 2.0 * G * m_Sun / dist - v2_Earth; /* escape velocity at current position from sun */
+         sum += 1000.0 * (sqr_v2 / (c*c - sqr_v2)); /* length increasement because of Lorentz factor */
 
 #if CHECK_DIRECTION_DEPENDENCY
-       diff_sum *= 2.0;
-       printf("difference of distance=%.2f m resulting delay=%.2f us and summary delay=%.2f us\n", diff_sum, diff_sum / c * 1000000.0, (sum - diff_sum) / c * 1000000.0);
+          /* dist_Sun / dist is the sine of the angle between the direction of movement according to the law of sines
+             and the fact that dist is the site opposed the right angle which sine is 1. The sine of that angle multiplied
+             by the length of that vector is the part of the vector that is perpendicular to the direction of Sun. */
+         if(sqr_v2 > 0.0)
+            diff_sum += 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
+#endif
+         if(r > 1000.0)
+            r -= 1000.0;
+         else
+            r = 0.0;
+      }
+
+      sum *= 2.0;
+      printf("distance to center of Sun=%.0f km (%.03f the radius of Sun)\n", dist_Sun / 1000.0, dist_Sun / r_Sun);
+      printf("summary additional distance=%.2f m resulting delay=%.2f us\n", sum, sum / c * 1000000.0);
+
+#if CHECK_DIRECTION_DEPENDENCY
+      diff_sum *= 2.0;
+      printf("difference of distance=%.2f m resulting delay=%.2f us and summary delay=%.2f us\n", diff_sum, diff_sum / c * 1000000.0, (sum - diff_sum) / c * 1000000.0);
 #endif
 
-       if(arc == 0.0)
-       {
-          arc = -1;
-       }
-       else
-       {
-          days += 5.0;
-          arc -= 2.0 * M_PI * 5.0 * day / ys_Venus;
+      if(arc == 0.0)
+      { /* we are done and have finished our calculations now */
+         arc = -1;
+      }
+      else
+      {
+         /* increase the number of days and the angle according to that time */
+         days += 5.0;
+         arc -= 2.0 * M_PI * 5.0 * day / ys_Venus;
 
-          if(arc < 0.0)
-          {
-             days += arc / (2.0 * M_PI) * ys_Venus / day;
-             arc = 0.0;
-          }
-       }
+         if(arc < 0.0)
+         { /* Let finally calculate the case that Vinus is straight in direction of sun */
+            days += arc / (2.0 * M_PI) * ys_Venus / day;
+            arc = 0.0;
+         }
+      }
    }
 
    iret = 1;
