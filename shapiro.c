@@ -1,6 +1,13 @@
 #if 0
 rm -f ./_shapiro*
-cc -Wall -O3 -o _shapiro ./shapiro.c
+
+if test "$(uname)" = "Linux"
+then
+   cc -Wall -O3 -o _shapiro ./shapiro.c -lm
+else
+   cc -Wall -O3 -o _shapiro ./shapiro.c
+fi
+
 ./_shapiro
 exit $?
 #endif
@@ -13,8 +20,9 @@ exit $?
 * --------------------------------------------------------------------------- *
 *                                                                             *
 *  DESCRIPTION:   calculation of Shapiro delay according to the gravitational *
-*                 potential assuming the space is stretched according to the  *
-*                 square of the Lorentz factor of the escape velocity         *
+*                 potential of the Sun between Earth and Venus assuming the   *
+*                 space is stretched according to the square of the Lorentz   *
+*                 factor of the escape velocity                               *
 *                                                                             *
 * --------------------------------------------------------------------------- *
 *                                                                             *
