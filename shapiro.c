@@ -112,6 +112,10 @@ const double  rb_Pluto   = 39.482   * AE;  /* average radius of orbit of Pluto *
 const double  rb_Venus   = 0.7233   * AE;  /* average radius of orbit of Venus */
 const double  rb_Earth   = AE;             /* average radius of orbit of Earth */
 
+double sqr(double x)
+{
+    return(x*x);
+}
 
 int CalculateShapiro()
 {
@@ -142,6 +146,7 @@ int CalculateShapiro()
       double r        = 0.0; /* current distance from Earth or Venus */
       double sum      = 0.0;
 #if CHECK_DIRECTION_DEPENDENCY
+      double tan_sum  = 0.0; /* result if assuming lowered tangential speed that some people claim to exist */
       double diff_sum = 0.0; /* difference if assuming lower tangential speed that some people claim */
 #endif
       double dist_max = 0.0;
@@ -178,7 +183,11 @@ int CalculateShapiro()
             and the fact that dist is the site opposed the right angle which sine is 1. The sine of that angle multiplied
             by the length of that vector is the part of the vector that is perpendicular to the direction of Sun. */
          if(sqr_v2 > 0.0)
-            diff_sum += 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
+         {
+            double tan_dist = 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
+            tan_sum += tan_dist;
+            diff_sum += sqrt(sqr(tan_dist) + sqr(1000.0 * sqrt(1.0 - (dist_Sun * dist_Sun) / (dist * dist)) * (sqr_v2 / (c*c - sqr_v2))));
+         }
 #endif
 
          if(r > 1000.0)
@@ -212,7 +221,11 @@ int CalculateShapiro()
              and the fact that dist is the site opposed the right angle which sine is 1. The sine of that angle multiplied
              by the length of that vector is the part of the vector that is perpendicular to the direction of Sun. */
          if(sqr_v2 > 0.0)
-            diff_sum += 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
+         {
+            double tan_dist = 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
+            tan_sum += tan_dist;
+            diff_sum += sqrt(sqr(tan_dist) + sqr(1000.0 * sqrt(1.0 - (dist_Sun * dist_Sun) / (dist * dist)) * (sqr_v2 / (c*c - sqr_v2))));
+         }
 #endif
          if(r > 1000.0)
             r -= 1000.0;
@@ -226,7 +239,7 @@ int CalculateShapiro()
 
 #if CHECK_DIRECTION_DEPENDENCY
       diff_sum *= 2.0;
-      printf("difference of distance=%.2f m resulting delay=%.2f us and summary delay=%.2f us\n", diff_sum, diff_sum / c * 1000000.0, (sum - diff_sum) / c * 1000000.0);
+      printf("difference of distance=%.2f m resulting delay=%.2f us and summary delay=%.2f us\n", tan_sum, tan_sum / c * 1000000.0, diff_sum / c * 1000000.0);
 #endif
 
       if(arc == 0.0)
