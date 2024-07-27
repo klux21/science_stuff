@@ -160,6 +160,8 @@ int CalculateShapiroDelay()
       printf("\n");
       printf("%.0f days after starting day when the angle between Earth and Venus is %.4f°\n", days, arc * 360.0 / 2.0 / M_PI);
       printf("distance of Venus is %.0f km\n", dist_Venus / 1000.0);
+      printf("distance of passing the Sun is %.0f km (%.04f times the radius of Sun%s)\n",
+              dist_Sun / 1000.0, dist_Sun / r_Sun,  arc >= (0.5 * M_PI) ? "" : ", behind Venus" );
 
       /* We know the distance of the sun that is perpendicular the direction to Venus and radius of the simplified circular orbits of the planets.
          Now we iterate the additional lengths from the point where that distance of the sun hits the path ouf our radar waves.
@@ -186,7 +188,7 @@ int CalculateShapiroDelay()
          {
             double tan_dist = 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
             tan_sum += tan_dist;
-            diff_sum += sqrt(sqr(tan_dist) + sqr(1000.0 * sqrt(1.0 - (dist_Sun * dist_Sun) / (dist * dist)) * (sqr_v2 / (c*c - sqr_v2))));
+            diff_sum += sqrt(sqr(tan_dist) + sqr(1000.0 * cur_pos / dist * (sqr_v2 / (c*c - sqr_v2))));
          }
 #endif
 
@@ -224,7 +226,7 @@ int CalculateShapiroDelay()
          {
             double tan_dist = 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
             tan_sum += tan_dist;
-            diff_sum += sqrt(sqr(tan_dist) + sqr(1000.0 * sqrt(1.0 - (dist_Sun * dist_Sun) / (dist * dist)) * (sqr_v2 / (c*c - sqr_v2))));
+            diff_sum += sqrt(sqr(tan_dist) + sqr(1000.0 * cur_pos / dist * (sqr_v2 / (c*c - sqr_v2))));
          }
 #endif
 
@@ -235,9 +237,6 @@ int CalculateShapiroDelay()
       }
 
       sum *= 2.0;
-
-      printf("distance of passing the Sun is %.0f km (%.04f times the radius of Sun%s)\n",
-              dist_Sun / 1000.0, dist_Sun / r_Sun,  arc >= (0.5 * M_PI) ? "" : ", behind Venus" );
 
       printf("summary additional distance=%.2f m resulting delay=%.2f us\n", sum, sum / c * 1000000.0);
 
