@@ -112,6 +112,13 @@ const double  rb_Pluto   = 39.482   * AE;  /* average radius of orbit of Pluto *
 const double  rb_Venus   = 0.7233   * AE;  /* average radius of orbit of Venus */
 const double  rb_Earth   = AE;             /* average radius of orbit of Earth */
 
+const double  m_Andromeda  = 1.5e12  * m_Sun;
+const double  rb_Andromeda = 2.5e6   * year * c;
+//const double  m_Milkyway   = 1.15e12 * m_Sun;
+const double  rb_Milkyway  = 2.67e4  * year * c;
+const double  m_Milkyway   = 2.06e11 * m_Sun;
+
+ 
 double sqr(double x)
 {
     return(x*x);
@@ -145,7 +152,6 @@ int CalculateShapiroDelay()
    {
       double r        = 0.0; /* current distance from Earth or Venus */
       double sum      = 0.0; /* summary of additional distance */
-
 #if CHECK_DIRECTION_DEPENDENCY
       double tan_sum  = 0.0; /* result if assuming lowered tangential speed that some people claim to exist */
       double diff_sum = 0.0; /* difference if assuming lower tangential speed that some people claim */
@@ -173,7 +179,7 @@ int CalculateShapiroDelay()
          dist_max = sqrt(rb_Venus * rb_Venus - dist_Sun * dist_Sun);
 
       r = dist_max;
-      while(r > 0.0)
+      while(r > r_Venus)
       {
          double cur_pos = dist_max - r;
          double dist    = sqrt (cur_pos * cur_pos + dist_Sun * dist_Sun); /* current distance of sun */
@@ -209,9 +215,9 @@ int CalculateShapiroDelay()
       r = dist_max;
 
       if(arc < 0.5 * M_PI)
-         r = dist_Venus; /* We have to iterate from current position of Venus only and to ignore the rest */
+         r = dist_Venus - r_Venus; /* We have to iterate from current position of Venus only and to ignore the rest */
 
-      while(r > 0.0)
+      while(r > r_Earth)
       {
          double cur_pos = dist_max - r;
          double dist    = sqrt (cur_pos * cur_pos + dist_Sun * dist_Sun); /* current distance of sun */
@@ -229,7 +235,6 @@ int CalculateShapiroDelay()
             diff_sum += sqrt(sqr(tan_dist) + sqr(1000.0 * cur_pos / dist * (sqr_v2 / (c*c - sqr_v2))));
          }
 #endif
-
          if(r > 1000.0)
             r -= 1000.0;
          else
@@ -245,6 +250,16 @@ int CalculateShapiroDelay()
       printf("difference of distance=%.2f m resulting delay=%.2f us and summary delay=%.2f us\n",
              tan_sum, tan_sum / c * 1000000.0, diff_sum / c * 1000000.0);
 #endif
+
+      printf("\n");
+
+      r = 2.0 * G * m_Andromeda / rb_Andromeda;
+      sum = dist_Venus * r / (c*c - r); 
+      printf("escape velocity from Andromeda galaxy is %.3f km/s causing an additional distance of %.0fm and delay of %.6fs\n", sqrt(r) / 1000.0 , sum, sum / c);
+
+      r = 2.0 * G * m_Milkyway / rb_Milkyway;
+      sum = dist_Venus * r / (c*c - r); 
+      printf("escape velocity from Milkyway galaxy is %.3f km/s causing an additional distance of %.0fm and delay of %.6fs\n", sqrt(r) / 1000.0 , sum, sum / c);
 
       if(arc == 0.0)
       { /* we are done and have finished our calculations now */
