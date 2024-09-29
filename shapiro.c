@@ -272,7 +272,7 @@ int CalculateShapiroDelay()
          arc -= 2.0 * M_PI * 5.0 * day / ys_Venus;
 
          if(arc < 0.0)
-         { /* Let finally calculate the case that Vinus is straight in direction of sun */
+         { /* Calculate the case that Venus is straight in the direction of the Sun finally */
             days += arc / (2.0 * M_PI) * ys_Venus / day;
             arc = 0.0;
          }
