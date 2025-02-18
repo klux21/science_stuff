@@ -94,7 +94,8 @@ exit $?
 #include <stdio.h>
 #include <math.h>
 
-#define CHECK_DIRECTION_DEPENDENCY 0
+#define CHECK_DIRECTION_DEPENDENCY 0  /* check direction dependency of the streching of the room
+                                         that was propagated in German Wikipedia once (most likely wrong!) */
 
 const double  year       = 31556952.0;     /* a year of 365.2425 days in seconds */
 const double  day        = 86400.0;        /* a day in seconds */
