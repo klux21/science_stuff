@@ -120,6 +120,8 @@ const double  rb_Milkyway  = 2.67e4  * year * c;
 const double  m_Milkyway   = 2.06e11 * m_Sun;
 const double  rb_M87       = 53.5e6 * year * c;
 const double  m_M87        = 6.0e12 * m_Sun;
+const double  m_SGW        = 3.0*1.2e17 * m_Sun; /* estimated mass of Sloan Great Wall */
+const double  rb_SGW       = 1.37e12 * year * c; /* estimated distance of Sloan Great Wall */
  
 double sqr(double x)
 {
@@ -266,6 +268,10 @@ int CalculateShapiroDelay()
       r = 2.0 * G * m_M87 / rb_M87; /* square of escape velocity */
       sum = dist_Venus * r / (c*c - r);
       printf("escape velocity from M87 galaxy is %.3f km/s causing an additional distance of %.0fm and a delay of %.6fus\n", sqrt(r) / 1000.0 , sum, sum / c * 1.0e6 );
+
+      r = 2.0 * G * m_SGW / rb_SGW; /* square of escape velocity */
+      sum = dist_Venus * r / (c*c - r);
+      printf("escape velocity from Sloan Great Wall is %.3f km/s causing an additional distance of %.0fm and a delay of %.6fus\n", sqrt(r) / 1000.0 , sum, sum / c * 1.0e6 );
 
       if(arc == 0.0)
       { /* we are done and have finished our calculations now */
