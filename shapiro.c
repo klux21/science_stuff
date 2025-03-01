@@ -197,8 +197,9 @@ int CalculateShapiroDelay()
          if(sqr_v2 > 0.0)
          {
             double tan_dist = 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
+            double vert_dist = 1000.0 * cur_pos / dist * (sqr_v2 / (c*c - sqr_v2));
             tan_sum += tan_dist;
-            diff_sum += sqrt(sqr(tan_dist) + sqr(1000.0 * cur_pos / dist * (sqr_v2 / (c*c - sqr_v2))));
+            diff_sum += sqrt(sqr(tan_dist) + sqr(vert_dist));
          }
 #endif
 
@@ -235,8 +236,9 @@ int CalculateShapiroDelay()
          if(sqr_v2 > 0.0)
          {
             double tan_dist = 1000.0 * dist_Sun / dist * (sqrt(1.0 + sqr_v2 / (c*c - sqr_v2)) - 1.0);
+            double vert_dist = 1000.0 * cur_pos / dist * (sqr_v2 / (c*c - sqr_v2));
             tan_sum += tan_dist;
-            diff_sum += sqrt(sqr(tan_dist) + sqr(1000.0 * cur_pos / dist * (sqr_v2 / (c*c - sqr_v2))));
+            diff_sum += sqrt(sqr(tan_dist) + sqr(vert_dist));
          }
 #endif
          if(r > 1000.0)
