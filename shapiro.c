@@ -123,10 +123,103 @@ const double  m_M87        = 6.0e12 * m_Sun;
 const double  m_SGW        = 3.0*1.2e17 * m_Sun; /* estimated mass of Sloan Great Wall */
 const double  rb_SGW       = 1.37e12 * year * c; /* estimated distance of Sloan Great Wall */
  
-double sqr(double x)
+
+int CalculateLightDeviationOfRadius(double radius)
 {
-    return(x*x);
-}
+   int iret = 0;
+
+   double dist_Sun = radius;                                 /* minimal distance from sun the radar may work; */
+   double sum      = 0.0; /* summary of additional distance */
+   double sum0     = 0.0; /* summary of additional distance */
+
+   int count = 2;
+
+   /* calculation of Shapiro delay */
+   while(count--)
+   {
+      double r        = 0.0; /* current distance from Earth or Venus */
+      double dist_max = 0.0; /* distance between one of the planets and the point of the connection line that the Sun is perpendicular to */
+
+      double arc        = M_PI / 2.0 - asin(dist_Sun / rb_Venus) + M_PI / 2.0 - asin(dist_Sun / rb_Earth); /* angle between Earth and Venus from view of sun */
+      double dist_Venus = sqrt(rb_Venus * rb_Venus + rb_Earth * rb_Earth - 2.0 * rb_Venus * rb_Earth * cos(arc)); /* distance between Earth and Venus to according the angle and the law of cosines */
+
+      sum0 = sum;
+      sum  = 0.0; /* summary of additional distance */
+
+      /* We know the distance of the sun that is perpendicular the direction to Venus and radius of the simplified circular orbits of the planets.
+         Now we iterate the additional lengths from the point where that distance of the sun hits the path ouf our radar waves.
+         Let's begin with the part the direction of the Venus. */
+
+      if(arc <= (0.5 * M_PI))
+         dist_max = 0.0; /* We need to skip this because Venus is closer to the Earth than our crossing point in this case. */
+      else
+         dist_max = sqrt(rb_Venus * rb_Venus - dist_Sun * dist_Sun);
+
+      r = dist_max;
+      while(r > r_Venus)
+      {
+         double cur_pos = dist_max - r;
+         double dist    = sqrt (cur_pos * cur_pos + dist_Sun * dist_Sun); /* current distance of sun */
+         double sqr_v2  = 2.0 * G * m_Sun / dist; /* escape velocity at current position from sun */
+         sum += 1000.0 * (sqr_v2 / (c*c - sqr_v2)); /* length increasement because of Lorentz factor */
+
+         if(r > 1000.0)
+            r -= 1000.0;
+         else
+            r = 0.0;
+      }
+
+      /* Let's iterate the part towards Earth now. */
+      dist_max = rb_Earth * rb_Earth - dist_Sun * dist_Sun;
+
+      if(dist_max <= 0.0)
+         dist_max = 0.0; /* ensure this */
+      else
+         dist_max = sqrt(dist_max);
+
+      r = dist_max;
+
+      if(arc < 0.5 * M_PI)
+         r = dist_Venus - r_Venus; /* We have to iterate from current position of Venus only and to ignore the rest */
+
+      while(r > r_Earth)
+      {
+         double cur_pos = dist_max - r;
+         double dist    = sqrt (cur_pos * cur_pos + dist_Sun * dist_Sun); /* current distance of sun */
+         double sqr_v2  = 2.0 * G * m_Sun / dist; /* escape velocity at current position from sun */
+         sum += 1000.0 * (sqr_v2 / (c*c - sqr_v2)); /* length increasement because of Lorentz factor */
+
+         if(r > 1000.0)
+            r -= 1000.0;
+         else
+            r = 0.0;
+      }
+
+      dist_Sun += 1.0; /* minimal distance of the Sun to the ray according to the law of sines and that it just depends on the sinus
+                          of angle between the Sun and the other planet multiplied by the distance of the sun */
+   }
+
+   sum = sum0 - sum;
+   radius /= sum;
+   printf("light deviation at %.3f r_Sun is %.3f\" that leads to a focus at %.4fLy\n", dist_Sun / r_Sun, sum / M_PI * 180.0 * 3600.0, radius / year / c);
+
+   return(iret);
+}/* CalculateLightDeviation() */
+
+int CalculateLightDeviation()
+{
+   int iret = 0;
+   double radius = r_Sun;
+   int i = 31;
+
+   while(i--)
+   {
+      iret |= CalculateLightDeviationOfRadius(radius);
+      radius += 1.0 * r_Sun;
+   }
+   return(iret);
+} /* int CalculateLightDeviation() */
+
 
 int CalculateShapiroDelay()
 {
@@ -305,6 +398,8 @@ int CalculateShapiroDelay()
 int main(int argc, char * argv[])
 {
    int iret = 0;
+
+   // CalculateLightDeviation();
 
    if(!CalculateShapiroDelay())
       iret = 1;
