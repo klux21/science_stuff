@@ -122,7 +122,41 @@ const double  rb_M87       = 53.5e6 * year * c;
 const double  m_M87        = 6.0e12 * m_Sun;
 const double  m_SGW        = 3.0*1.2e17 * m_Sun; /* estimated mass of Sloan Great Wall */
 const double  rb_SGW       = 1.37e12 * year * c; /* estimated distance of Sloan Great Wall */
- 
+
+
+int CalculatePerihelionMovement()
+{
+   int iret = 0;
+   double rb       = rb_Mercury;                     /* orbital radius */
+   double length   = 2.0 * M_PI * rb;                /* orbit length */
+   double time = length / sqrt(G * m_Sun / rb);      /* orbital period */
+   double orbits = 100.0 * year / time;              /* orbits per century */
+   double sqr_vb   = G * m_Sun / rb;                 /* square of orbital velocity */
+   double sqr_v2   = 2.0 * G * m_Sun / rb;           /* square of escape velocity */
+
+   double pd_vb    = 2.0 * M_PI * sqr_vb/(c * c - sqr_vb); /* summary perihel movement because of by Lorentz factor increased orbit length and
+                                                              the by Lorentz factor reduced orbital radius (because of the increased radial force) - 1.0 */
+#if 1
+   double pd_sh = atan(2.0* M_PI * rb  / (rb*rb*c*c/2.0/G/m_Sun - 2.0*rb + 2.0*G*m_Sun/c/c )) + /* perihelion movement because of the differential of additional room according to Shapiro delay */
+                  pd_vb;                                     /* perihel movement because of the orbital velocity */
+#else
+   double sqr_v2_1 = 2.0 * G * m_Sun / ( rb + 1.0 );         /* square of escape velocity from orbit if orbital radius is increased by 1 Meter */
+   double sqr_lf_m1   = sqr_v2 / (c * c - sqr_v2);           /* square of Lorentz factor of escape velocity - 1.0 */
+   double sqr_lf_m1_1 = sqr_v2_1 / (c * c - sqr_v2_1);       /* square of Lorentz factor of escape velocity if orbital radius is increased by 1 Meter -1.0 */
+   double pd_sh = atan(length * (sqr_lf_m1 - sqr_lf_m1_1)) + /* perihelion movement because of the stretched room according to Shapiro delay */
+                  pd_vb;                                     /* perihel movement because of the orbital velocity */
+#endif
+
+   double pd = 2.0 * M_PI * 3.0 * G * m_Sun / rb / (c * c); /* perihelion movement according classical equation */
+
+   printf ("perihelion movement Shapiro   = %e\nperihelion movement classical = %e\n", pd_sh, pd);
+
+
+   printf ("perihelion movement Shapiro   = %f\"/century\nperihelion movement classical = %f\"/century\n", pd_sh * orbits / M_PI * 180.0 * 3600.0 , pd * orbits / M_PI * 180.0 * 3600.0 );
+   iret = 1;
+   Exit:;
+   return iret;
+} /* CalculatePerihelionMovement() */
 
 int CalculateLightDeviationOfRadius(double radius)
 {
@@ -400,7 +434,7 @@ int main(int argc, char * argv[])
    int iret = 0;
 
    // CalculateLightDeviation();
-
+   CalculatePerihelionMovement();
    if(!CalculateShapiroDelay())
       iret = 1;
 
