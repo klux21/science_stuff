@@ -137,8 +137,8 @@ int CalculatePerihelionMovement()
    double pd_vb    = 2.0 * M_PI * sqr_vb/(c * c - sqr_vb); /* summary perihel movement because of by Lorentz factor increased orbit length and
                                                               the by Lorentz factor reduced orbital radius (because of the increased radial force) - 1.0 */
 #if 1
-   double pd_sh = atan(2.0* M_PI * rb  / (rb*rb*c*c/2.0/G/m_Sun - 2.0*rb + 2.0*G*m_Sun/c/c )) + /* perihelion movement because of the differential of additional room according to Shapiro delay */
-                  pd_vb;                                     /* perihel movement because of the orbital velocity */
+  double pd_sh = atan(2.0* M_PI * rb  / (rb*rb*c*c/2.0/G/m_Sun - 2.0*rb + 2.0*G*m_Sun/c/c )) + /* perihelion movement because of the differential of additional room according to Shapiro delay */
+                  pd_vb;                                                                       /* perihel movement because of the orbital velocity */
 #else
    double sqr_v2_1 = 2.0 * G * m_Sun / ( rb + 1.0 );         /* square of escape velocity from orbit if orbital radius is increased by 1 Meter */
    double sqr_lf_m1   = sqr_v2 / (c * c - sqr_v2);           /* square of Lorentz factor of escape velocity - 1.0 */
@@ -149,10 +149,10 @@ int CalculatePerihelionMovement()
 
    double pd = 2.0 * M_PI * 3.0 * G * m_Sun / rb / (c * c); /* perihelion movement according classical equation */
 
-   printf ("perihelion movement Shapiro   = %e\nperihelion movement classical = %e\n", pd_sh, pd);
+   /* printf ("perihelion movement Shapiro   = %e / orbit \nperihelion movement classical = %e / orbit\n", pd_sh, pd); */
 
 
-   printf ("perihelion movement Shapiro   = %f\"/century\nperihelion movement classical = %f\"/century\n", pd_sh * orbits / M_PI * 180.0 * 3600.0 , pd * orbits / M_PI * 180.0 * 3600.0 );
+   printf ("perihelion movement Shapiro   = %f\" / century\nperihelion movement classical = %f\" / century\n", pd_sh * orbits / M_PI * 180.0 * 3600.0 , pd * orbits / M_PI * 180.0 * 3600.0 );
    iret = 1;
    Exit:;
    return iret;
