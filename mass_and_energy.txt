@@ -23,7 +23,7 @@ a relativistically higher mass of the sun and therefore a higher resulting
 force on the planets compared to Newton. I assumed the same relativistic
 increase of the mass and therefore the force as the one of an electric field of
 a moving charge which I did calculated a short time before. When I remembered
-this some days ago I dug the old stuff out again and had a look at that again.
+this some days ago I dug out that old stuff and had a look at that again.
 And here is the somewhat unexpected result that I did end up with.
 
 The idea at that time was that the perihelion precession resulted from the
