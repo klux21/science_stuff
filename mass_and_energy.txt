@@ -134,10 +134,10 @@ of simple relativistic equations considerably. Slightly other forms of γ that
 we face sometimes in physical equations are γ=√(c²/(c²-v²)) and
 γ=√(1 + v²γ²/c²).
 
-If we assume a total energy E=mc²γ² as missing extension to Einstein's known
+If we assume a total energy of E=mc²γ² as missing extension to Einstein's known
 E=mc²γ and want to calculate the kinetic energy by subtracting the energy of
-the rest mass we see that the equation for relativistic energy is still not
-correct, because then the following would result
+the rest mass then we see that the equation for relativistic energy is still
+not correct, because the following results
 
 [13]    kE = E - mc²
 [14]    kE = mc²γ² - mc²
@@ -146,11 +146,11 @@ correct, because then the following would result
 [17]    kE = mv² (1 + v²/(c²-v²))
 [18] -> kE = mv²γ²
 
-In the case that E=mc² applies, the energy for the Newtonian approximation of
-kinetic energy would be too large by a factor of 2. Therefore in case of γ²,
-the energy of the rest mass can only be half as large as Einstein postulated
-with E=mc²γ most likely E=mc²γ²/2 . But there seems to be something wrong and
-we should derive the matter more completely.
+In the case that E=mc² applies, the energy of the Newtonian approximation of
+the kinetic energy would be too large by a factor of 2. Therefore in case of γ²,
+the energy of the rest mass can only be half as large as Einstein did postulate
+with E=mc²γ most likely E=mc²γ²/2. So there would be something wrong and we
+should derive the matter for this more completely.
 
 From the known equation for the relativistic momentum p=mvγ and a momentum-
 dependent kinetic energy kE=p²/(2m), the relativistic kinetic energy results
@@ -166,16 +166,16 @@ as following
 [26]    p² = m²c²γ² - m²c²
 [27] -> kE = mc²γ²/2 - mc²/2
 
-The energy of the rest mass, from which the kinetic energy results
-relativistically according to γ², is therefore mc²/2. If we add this to the
-kinetic energy, we get the total energy as
+The energy of the rest mass that the kinetic energy results relativistically
+according to γ² is therefore mc²/2. If we add this to the kinetic energy then
+we get the total energy as
 
 [28] -> E = kE + mc²/2
 [29] -> E = mc²γ²/2
         ===========
 
 OK - this could be the solution. In this case E=mc²γ would be wrong and should
-be replaced by the equation E=mc²γ²/2 . From this relativistic total energy,
+be replaced by the equation E=mc²γ²/2 . Using this relativistic total energy
 the kinetic energy can be obtained as a check by subtracting the rest mass
 energy from the total energy as following 
 
@@ -187,15 +187,15 @@ energy from the total energy as following
 [35] -> kE = mv²γ²/2
         ============
 
-The Newtonian approximation of kinetic energy looks correctly now and the
+The Newtonian approximation of kinetic energy seems correctly now and the
 equation kE=mv²γ²/2 seems even more correct because the equation for a
 velocity v² also contains the required relativistic correction factor γ².
 A mass-energy equivalence exists according E=mc²γ²/2 as well.
 
 We have to check of course whether this equation is valid and generally
-applicable. For this we should first have a look at the energy balance of a
-free fall. The following applies to the vertical a free fall of a mass for
-the classical lifting work W
+applicable. For this we should have a look at the energy balance of a free fall
+first. The following applies to the vertical a free fall of a mass for the
+classical lifting work W
 
 [36]    W   = mgh
 
@@ -220,7 +220,7 @@ if v² << c² this is equivalent to
 
 That's known and matches the change of the frequency of photons. But E=mc²γ
 can't be right if it comes to the relativistic increasing attraction forces
-which which are growing proportionally to γ².
+which which should be growing proportionally to γ².
 
 If E=mc²γ²/2 applies then the Energy of a free falling mass should grow
 according to γ² while the summary energy should match
@@ -229,7 +229,7 @@ according to γ² while the summary energy should match
 [45]    E   = (mc²/2)(1 + 2gh/c²)
 
 As we can see E=mc²γ²/2 matches our expectations regarding the kinetic energy
-perfectly as well.
+perfectly as well and we have to look much more into the datails.
 
 In the cases above, we have
 
@@ -249,11 +249,11 @@ energies should be growing proportionally to γ² instead of γ.
 But doesn't the energy of photons change according to (1 + gh/c²) and wouldn't
 be a perpetual motion machine possible? No, because since the frequency of
 photons in the gravitational field only increases that much that clocks run
-slower there and for this the frequency, wavelength and energy of photons in
-the gravitational field obviously do not change. So it depends anything on
-change of the inner energy of the clocks and their atoms solely. Of course the
+slower there and the frequency, wavelength and energy of photons in a
+gravitational field obviously do not change. So it depends anything on change
+of the inner energy of the clocks and their atoms solely. Of course the
 frequency as well as the energy of those change according to γ of the velocity
-of a free fall as we know already. 
+of a free fall as we know. 
 
 Despite the differences in the elapse of time, light also travels the same
 local distance in the same time in the gravitational field due to the constancy
@@ -262,10 +262,10 @@ explained solely by the difference of the clocks, the clocks and their atoms
 should be stretched by the same factor in gravitational field that the clocks
 are running slower there. The size of atoms and atomic particles and their
 Compton wavelength, should be increased by γ and thus proportionally to that
-the duration of all transitions inside of the atoms should be slower.
+the duration of all transitions inside of of atoms should be slower by γ.
 This reduces the frequency of atomic clocks and thus decrease the speed of the
 passage of time there. Since atoms in the gravitational field are larger by γ,
-the energy of the elementary particles is lower by γ. Of course this
+the energy of the elementary particles is lowered by γ. Of course this
 corresponds rather to E=mc²γ than to E=mc²γ²/2 which should be wrong, or
 doesn't it? Of course the things aren't always that trivial as they seem at the
 first glance. And since we are nearly convinced that E=mc²γ²/2 is the correct
@@ -273,14 +273,14 @@ equation, we only have to look where the missing energy according to our
 expected change of γ² is.
 
 The measurements of the Shapiro delay proved that the time required for photons
-to cross a gravitational field is extended by γ² of the respective local escape
-velocity. Slowing down the propagation of waves inevitably results in an
+to cross a gravitational field is extended according γ² of the respective local
+escape velocity. Slowing down the propagation of waves inevitably results in an
 increase of their frequency that is inversely proportional to their propagation
 speed. The frequency of the photons should therefore increase by γ² in relation
 to the coordinate velocity. But since they are detected with an increase of the
-frequency by γ means that the atoms have an energy that is γ higher than it
-should be according to γ². So why does the energy of the atoms not change by γ²
-but γ? What do we miss?
+frequency by γ means that the atoms have an energy that is by γ higher than it
+should be according our assomed γ². So why does the energy of the atoms not
+change by γ² but γ? What do we miss?
 
 The answer is that physical interactions, such as gravity always involve more
 than just one body. We had ignored the energy change of the atoms of the
@@ -289,37 +289,35 @@ the atoms of our atomic clocks decreases. If the attracting mass would match
 the mass of our clock it would be pretty obviously to everyone that the atoms
 of it are loosing the same amount of energy that the atoms of our clock do.
 The kinetic energy during a free fall matches the change of the internal energy
-of all involved masses.
-The distribution of the released kinetic energy, on the other hand, is
-determined by the conservation of momentum. If E=mc²γ would apply, half of the
-released energy therefore would be missing! Our equation for the total energy
-before was incomplete because the energy change of the mass that causes the
-gravitational acceleration was missing in that! So E=mc²γ²/2 would be correct
-but not E=mc²γ. 
+of all involved masses. The distribution of the released kinetic energy, on the
+other hand, is determined by the conservation of momentum. If E=mc²γ would
+apply, half of the released energy therefore would be missing! Our equation for
+the total energy before was incomplete because the energy change of the mass
+that causes the gravitational acceleration was missing in it! So E=mc²γ²/2
+seems to be correct but not E=mc²γ. 
 
 Let's recapitulate the basics of the theory of special relativity that are
 basing on the confirmation that the speed of light is the same in any reference
 system and any direction.
 
 Our moving observer has upgraded his old Einstein train to a stylish travelling
-sphere with a reflecting surface. At the center of the sphere is a lighting
-system and sends at the touch of a button simultaneous pulses of light in all
-directions, which are reflected by the reflecting surface of the sphere and are
-received simultaneously by the sensors in the center of the sphere on their
-return. All light pulses are travelling at c for each observer and after being
-reflected by the sphere they are also received simultaneously by the sensors
-afterwards from the perspective of all observers.
+sphere with a reflecting inner surface. At the center of the sphere is a
+lighting system and sends at the touch of a button simultaneous pulses of light
+in all directions, which are reflected by the reflecting surface of the sphere
+and are received simultaneously by the sensors in the center of the sphere on
+their return. All light pulses are travelling at c for each observer and after
+being reflected by the sphere they are also received simultaneously by the
+sensors afterwards from the perspective of all observers.
 
 Let's start with the derivation of the Lorentz factor. A pulse of light travels
-vertically upwards is received at the center of the sphere again after being
-reflected by sphere and for this after two times travelling the radius r.
+vertically upwards and becomes received at the center of the sphere again after
+being reflected by sphere and for this after two times travelling the radius r.
 During this time, the sphere has moved the distance 2s at the speed v for
 stationary observers and the light did not travel vertically for those observer
 but diagonally to the ceiling of the sphere and back twice the distance a,
-which is longer than the radius r. See
+which is longer than the radius r. For a sketch of that see
 https://github.com/klux21/science_stuff/blob/master/dao_of_relativity.png
-for a sketch of such an ellipse. According to the Pythagorean theorem, the
-following applies
+According to the Pythagorean theorem, the following applies
 
 [49]    a² = s² + r²
 
@@ -339,13 +337,13 @@ Similar applies to the paths of the light
 [56]    r  = a √(1 - (v*t)²/(c*t)²)
 [57]    a  = rγ
 
-The light path a, which the observer at rest registers, is therefore by a
+Therefore the light path a, which the observer at rest registers, is by a
 factor of γ longer and that path is not completely perpendicular to the
-direction of movement as it is from the perspective of the traveller.
-What about the light rays in the other directions? Because they are all emitted
-at the same time and reflected by the sphere at the same time and are received
+direction of movement as it is from the perspective of the traveller. But what
+about the light rays in the other directions? Because they are all emitted at
+the same time and reflected by the sphere at the same time and are received
 afterwards at the same time, they all must have travelled the same distance at
-c in all directions but the distance is a different one for both observers.
+c in all directions but this distance is a different one for both observers.
 This means for our stationary observer that all reflection points are on the
 surface of a perfect spheroid where they did arrive after different time spans.
 The focal points of that spheroid's perfectly elliptical longitudinal section
