@@ -1,0 +1,573 @@
+###############################################################################
+#                                                                             #
+#  Copyright (c) 2025 Dipl.-Ing. Klaus Lux (Aachen, Germany)                  #
+#                                                                             #
+#  All rights including the one of funny enhancements reserved!               #
+#                                                                             #
+###############################################################################
+#                                                                             #
+#  Origin:  https://github/klux21/science_stuff                               #
+#                                                                             #
+###############################################################################
+#                                                                             #
+#  Magnetic fields and the perihelion precession of planets versus E=mc²γ     #
+#  and Lorentz contraction. Was Einstein mistaken ???                         #
+#                                                                             #
+###############################################################################
+
+"What we know is a drop. What we don't know is an ocean."
+(Sir Isaac Newton)
+
+A very long time ago I did calculate the perihelion motion of planets assuming
+a relativistically higher mass of the sun and therefore a higher resulting
+force on the planets compared to Newton. I assumed the same relativistic
+increase of the mass and therefore the force as the one of an electric field of
+a moving charge which I did calculated a short time before. When I remembered
+this some days ago I dug the old stuff out again and had a look at that again.
+And here is the somewhat unexpected result that I did end up with.
+
+The idea at that time was that the perihelion precession resulted from the
+increased angle of deflection according to the special relativistic higher
+gravitational force of the sun on the planets. Once you imagine the orbit of
+the planets as a spool of wire and the bending of the wire is slightly
+increased at one point then the entire remaining spool of wire rotates
+according to that additional bend as the perihelion of the planetary orbit
+should.
+
+Here is my preceding calculation of the force between two point charges moving
+past each other at a distance r
+
+[1]    B  = µ H = µ q v /(4 π r²)
+[2]    FR = e e /(4 π r² ε)
+[3]    FL = e v x B
+[4]    FL = e v x µ e v/(4 π r²)
+[5]    F  = FR + FL
+[6] -> F  = FR(1 + FL/FR)
+[7] -> F  = FR(1 + µ ε v²)
+[8] -> F  = FR(1 + v²/c²)
+
+There are:
+
+ e  = electric point charge 
+ B  = magnetic flux density
+ H  = magnetic field strength
+ F  = resultant total force
+ FR = force between stationary charges at a distance r from each other
+ FL = Lorentz force when charges move past each other at a distance r
+      with a velocity v
+ µ  = magnetic field constant
+ ε  = electric field constant
+ π  = circle number Pi
+ v  = (Newtonian, non-relativistic) velocity
+
+The electric field force thus increases with (1 + v²/c²) whereby it
+corresponds to the force of the magnetic field of the moving electric charge
+and is identical to it.
+
+Since the deflection angle from a straight line by a gravitational force that
+is acting perpendicular to the direction of motion is proportional to the
+force for small forces and deflections, a relativistic increment of the
+gravitational force should consequently result in a perihelion precession that
+is proportional to right that increasing force.
+
+The non-relativistic total deflection angle for a circular orbit is 2π. The
+orbital velocity of a body according to Newton is calculated as
+
+[9]     vb = √(G M / r)
+
+and the escape velocity, which is why the sun is also more energetic and thus
+more massive from the point of view of the Mercury orbit than for distant
+observers is
+
+[10]    v2 = √(2 G M / r)
+
+where G is the gravitational constant, M is the mass of the sun, and r is the
+orbital radius or the major semi-axis of the planet's orbit. Since both
+velocity vectors are perpendicular to each other a vectorial addition results
+in a total velocity of
+
+[11]    vg = √(3 G M / r)
+
+With a relativistic increase in the gravitational force by the factor (1+v²/c²)
+an increase in force of v²/c² results in the additional angle of deflection
+Pd = 2 π (v²/c²) per revolution. Because of this the precession of perihelion
+per revolution is expected to be
+
+[12] -> Pd = 2 π 3 G M / r / c²
+
+Although this is derived using the forces only and neglecting the ellipse but
+corresponds exactly to the results of the general theory of relativity and
+therefore it does not contradict general theory of relativity because the
+energy and forces depend purely on the observer and the atoms in the
+gravitational field are known to be stretched the same as the time flow.
+The sun is therefore smaller and richer in energy and mass for the planets than
+for a distant observer. According to the elongation of the atoms, the orbit is
+shorter from the perspective of a planet by exactly the same amount that it is
+longer due to the gravitational elongation of space. That's what I thought.
+The above equation should only be valid for velocities much smaller than c.
+For velocities close to c the equation unusable and for higher velocities the 
+term (1 + v²/c²) for (Newtonian) velocities should be replaced by the square
+of the Lorentz factor (1 + v²/(c²-v²)) which is behind that. The difference of
+this is for typical cross-sections of electrical conductors negligibly small.
+Nevertheless, it is interesting to realize that the Lorentz force and therefore
+magnetic fields are relativistic effects. For the perihelion precession of the
+planets in the solar system the difference can be ignored as well.
+
+But does this mean that everything was already clear and in line with our
+expectations? Unfortunately not, because although the perihelion rotation was
+pretty correct, the relativistic mass increase and electrical force increase
+were not proportional to the Lorentz factor γ but obviously to the square
+of the Lorentz factor which is γ² and thus the relativistic mass and energy
+increase should happen according to γ² as well but not by γ only as postulated
+by Einstein according to E=mc²γ! 
+Reason enough to have a closer look at this even that I guess that many
+physicist may be somewhat upset about my previous highly simplifying special
+relativistic calculations of the gravitational forces and the perihelion
+precession already.
+
+A brief hint for all readers regarding the relativistic Lorentz factor γ.
+The notation γ=√(1 + v²/(c²-v²)) is sometimes preferred over the more common
+form γ=√(1/(1 - (v²/c²))). This is because the former notation more clearly
+separates the static and relativistic growing components within that term. If
+one memorizes both versions as being equivalent, this simplifies the conversion
+of simple relativistic equations considerably. Slightly other forms of γ that
+we face sometimes in physical equations as well are γ=√(c²/(c²-v²)) and
+γ=√(1 + v²γ²/c²).
+
+If we assume a total energy E=mc²γ² as missing extension to Einstein's known
+E=mc²γ and want to calculate the kinetic energy by subtracting the energy of
+the rest mass we see that the equation for relativistic energy is still not
+correct, because then the following would result
+
+[13]    kE = E - mc²
+[14]    kE = mc²γ² - mc²
+[15]    kE = mc² (1 + v²/(c²-v²)) - mc²
+[16]    kE = mv² (1 / (1-(v²/c²))
+[17]    kE = mv² (1 + v²/(c²-v²))
+[18] -> kE = mv²γ²
+
+In the case that E=mc² applies, the energy for the Newtonian approximation of
+kinetic energy would be too large by a factor of 2. Therefore in case of γ²,
+the energy of the rest mass can only be half as large as Einstein postulated
+with E=mc²γ most likely E=mc²γ²/2 . But there seems to be something wrong and
+we should derive the matter more completely.
+
+From the known equation for the relativistic momentum p=mvγ and a momentum-
+dependent kinetic energy kE=p²/(2m), the relativistic kinetic energy results
+as following 
+
+[19]    kE = p²/(2m)
+[20]    p  = mvγ
+[21]    p² = m²v²γ²
+[22]    p² = m²v²(1 + v²/(c²-v²))
+[23]    p² = m²v²((c²-v² + v²)/(c²-v²))
+[24]    p² = m²c²(v²/(c²-v²))
+[25]    p² = m²c²(γ²-1)
+[26]    p² = m²c²γ² - m²c²
+[27] -> kE = mc²γ²/2 - mc²/2
+
+The energy of the rest mass, from which the kinetic energy results
+relativistically according to γ², is therefore mc²/2. If we add this to the
+kinetic energy, we get the total energy as
+
+[28] -> E = kE + mc²/2
+[29] -> E = mc²γ²/2
+        ===========
+
+OK - this could be the solution. In this case E=mc²γ would be wrong and should
+be replaced by the equation E=mc²γ²/2 . From this relativistic total energy,
+the kinetic energy can be obtained as a check by subtracting the rest mass
+energy from the total energy as following 
+
+[30]    kE = E - mc²/2
+[31]    kE = mc²γ²/2 - mc²/2
+[32]    kE = mc²/2 (1 + v²/(c²-v²)) - mc²/2
+[33]    kE = mv²/2 (1 / (1-(v²/c²))
+[34]    kE = mv²/2 (1 + v²/(c²-v²))
+[35] -> kE = mv²γ²/2
+        ============
+
+The Newtonian approximation of kinetic energy looks correctly now and the
+equation kE=mv²γ²/2 seems even more correct because the equation for a
+velocity v² also contains the required relativistic correction factor γ².
+A mass-energy equivalence exists according E=mc²γ²/2 as well.
+
+We have to check of course whether this equation is valid and generally
+applicable. For this we should first have a look at the energy balance of a
+free fall. The following applies to the vertical a free fall of a mass for
+the classical lifting work W
+
+[36]    W   = mgh
+
+and according to the conservation of energy
+
+[37]    E'  = E - W
+[38]    E   = E' + W
+
+For the kinetic energy and the resulting velocity of a free fall applies
+
+[39]    mv²/2 = mgh
+[40]    v²    = 2gh
+
+This results for a free falling mass in according to E=mc² of Einstein in
+
+[41]    E   = mc² + mgh
+[42]    E   = mc²(1 + gh/c²)
+
+if v² << c² this is equivalent to
+
+[43]    E   ≈ mc²√(1 + 2gh/c²)
+
+That's known and matches the change of the frequency of photons. But E=mc²γ
+can't be right if it comes to the relativistic increasing attraction forces
+which which are growing proportionally to γ².
+
+If E=mc²γ²/2 applies then the Energy of a free falling mass should grow
+according to γ² while the summary energy should match
+
+[44]    E   = mc²/2 + mgh
+[45]    E   = (mc²/2)(1 + 2gh/c²)
+
+As we can see E=mc²γ²/2 matches our expectations regarding the kinetic energy
+perfectly as well.
+
+In the cases above, we have
+
+W  = classical lifting work
+E  = initial energy of the photons or mass
+E' = energy after a free fall of the height s
+m  = rest mass
+h  = height (lifting distance)
+g  = gravitational acceleration
+c  = speed of light
+
+In case of  v << c there is obviously nearly no difference. Only if we care
+about the growth of forces that results from the relativistic growing of energy
+we'll find that electric and gravitational forces and therefore the related
+energies should be growing proportionally to γ² instead of γ.
+
+But doesn't the energy of photons change according to (1 + gh/c²) and wouldn't
+be a perpetual motion machine possible? No, because since the frequency of
+photons in the gravitational field only increases that much that clocks run
+slower there and for this the frequency, wavelength and energy of photons in
+the gravitational field obviously do not change. So it depends anything on
+change of the inner energy of the clocks and their atoms solely. Of course the
+frequency as well as the energy of those change according to γ of the velocity
+of a free fall as we know already. 
+
+Despite the differences in the elapse of time, light also travels the same
+local distance in the same time in the gravitational field due to the constancy
+of the speed of light. Since the change in frequency of the photons can be
+explained solely by the difference of the clocks, the clocks and their atoms
+should be stretched by the same factor in gravitational field that the clocks
+are running slower there. The size of atoms and atomic particles and their
+Compton wavelength, should be increased by γ and thus proportionally to that
+the duration of all transitions inside of the atoms should be slower.
+This reduces the frequency of atomic clocks and thus decrease the speed of the
+passage of time there. Since atoms in the gravitational field are larger by γ,
+the energy of the elementary particles is lower by γ. Of course this
+corresponds rather to E=mc²γ than to E=mc²γ²/2 which should be wrong, or
+doesn't it? Of course the things aren't always that trivial as they seem at the
+first glance. And since we are nearly convinced that E=mc²γ²/2 is the correct
+equation, we only have to look where the missing energy according to our
+expected change of γ² is.
+
+The measurements of the Shapiro delay proved that the time required for photons
+to cross a gravitational field is extended by γ² of the respective local escape
+velocity. Slowing down the propagation of waves inevitably results in an
+increase of their frequency that is inversely proportional to their propagation
+speed. The frequency of the photons should therefore increase by γ² in relation
+to the coordinate velocity. But since they are detected with an increase of the
+frequency by γ means that the atoms have an energy that is γ higher than it
+should be according to γ². So why does the energy of the atoms not change by γ²
+but γ? What do we miss?
+
+The answer is that physical interactions, such as gravity always involve more
+than just one body. We had ignored the energy change of the atoms of the
+attracting mass that decreases in summary the same amount that the energy of
+the atoms of our atomic clocks decreases. If the attracting mass would match
+the mass of our clock it would be pretty obviously to everyone that the atoms
+of it are loosing the same amount of energy that the atoms of our clock do.
+The kinetic energy during a free fall matches the change of the internal energy
+of all involved masses.
+The distribution of the released kinetic energy, on the other hand, is
+determined by the conservation of momentum. If E=mc²γ would apply, half of the
+released energy therefore would be missing! Our equation for the total energy
+before was incomplete because the energy change of the mass that causes the
+gravitational acceleration was missing in that! So E=mc²γ²/2 would be correct
+but not E=mc²γ. 
+
+Let's recapitulate the basics of the theory of special relativity that are
+basing on the confirmation that the speed of light is the same in any reference
+system and any direction.
+
+Our moving observer has upgraded his old Einstein train to a stylish travelling
+sphere with a reflecting surface. At the center of the sphere is a lighting
+system and sends at the touch of a button simultaneous pulses of light in all
+directions, which are reflected by the reflecting surface of the sphere and are
+received simultaneously by the sensors in the center of the sphere on their
+return. All light pulses are travelling at c for each observer and after being
+reflected by the sphere they are also received simultaneously by the sensors
+afterwards from the perspective of all observers.
+
+Let's start with the derivation of the Lorentz factor. A pulse of light travels
+vertically upwards is received at the center of the sphere again after being
+reflected by sphere and for this after two times travelling the radius r.
+During this time, the sphere has moved the distance 2s at the speed v for
+stationary observers and the light did not travel vertically for those observer
+but diagonally to the ceiling of the sphere and back twice the distance a,
+which is longer than the radius r. See
+https://github.com/klux21/science_stuff/blob/master/dao_of_relativity.png
+for a sketch of such an ellipse. According to the Pythagorean theorem, the
+following applies
+
+[49]    a² = s² + r²
+
+And for the time difference t of the stationary observer and t' of the moving
+observer, the following applies
+
+[50]    (t*c)² = (t*v)² + (t'*c)²
+[51]    c²t'² = t²(c²-v²)
+[52]    t = t' √(c²/(c²-v²))
+[53]    t = t'γ
+
+The moving clocks of our traveller therefore are running by γ slower.
+Similar applies to the paths of the light
+
+[54]    r² = a² - s²
+[55]    r  = a √(1 - s²/a²)
+[56]    r  = a √(1 - (v*t)²/(c*t)²)
+[57]    a  = rγ
+
+The light path a, which the observer at rest registers, is therefore by a
+factor of γ longer and that path is not completely perpendicular to the
+direction of movement as it is from the perspective of the traveller.
+What about the light rays in the other directions? Because they are all emitted
+at the same time and reflected by the sphere at the same time and are received
+afterwards at the same time, they all must have travelled the same distance at
+c in all directions but the distance is a different one for both observers.
+This means for our stationary observer that all reflection points are on the
+surface of a perfect spheroid where they did arrive after different time spans.
+The focal points of that spheroid's perfectly elliptical longitudinal section
+are the positions where the light pulses are emitted and received from the view
+of the stationary observers.
+
+All paths of the light pulses in the different directions between the two focal
+points therefore have the same total length of 2a. That's why 2a is the total
+length of the spheroid for our stationary observer as well and which is longer
+than the 2r which is the radius of the sphere for our traveller. That means
+that in general all 2-way distances within the moving system are shorter by γ
+from the point of view of that moving reference system, regardless of their
+direction.
+
+Because of the movement of the center of the sphere for the stationary observer
+there exists an angle between the outward and return paths of the light and
+the distance towards the sphere and back to it's center is by γ shorter for the
+traveller than for our unmoved observer in all directions. The time it takes
+for the photons to travel the two way distance to the sphere and back is by γ
+shorter than for our traveller as well for and for this his clocks are running
+by γ slower in comparison to the clocks of the unmoved observer.
+
+Because of this there exist no Lorentz contraction at all. Moving objects and
+atoms are longer and therefore enlarged from the point of view of a stationary
+system but are not shorter in the moving system compared to the ones of a
+stationary system. Moving clocks become as much slower that their atoms and
+atomic transitions are enlarged. The length relation l'/l=γ (resp. a/r=γ) is
+indeed reciprocal to the postulate of the Lorentz contraction which is wrong!
+For the derivation of the Lorentz contraction Lorentz and Einstein were asking
+which time it takes on a slowed down clock for passing by an untransformed
+lenght in the resting frame and because γ can be even infinite that way there
+wouldn't be any speed limit and then they assumed that a length which is
+resting in the moving frame would be shortened the same but the physics doesn't
+work that way because they mixed up the related frames of the lengths within
+the derivation of the equations without realizing it.
+
+The existing relativistic streching can be measured directly by measuring the
+relativistic Doppler effect that can be explained by that and for this it is
+empirically already perfectly confirmed. The relativistic Doppler shift
+provides information about the change in length in a particular direction,
+because the frequency of light from the perspective of a traveler remains
+unchanged in all directions compared to that at rest, so all distances measured
+at this wavelength of light in his inertial system. When measuring length, the
+2-way speed of light is relevant. For this the frequencies in two opposite
+directions need to be measured and as we already know, the distances in a
+moving frame are increasing by γ.
+
+One paradox that no longer applies therefore is that of the speed limits.
+The same relative speed is measured in a moving system as in a stationary
+system. If time passes more slowly in a moving system, the distances in the
+moving system must be shorter by the same factor in order to measure the same
+relative velocity within it. Moving a distance s witin the resting system takes
+only the shorter time t'=t/γ within the moving system but at the same time the
+distance s withing the resting system is measured with the by γ enlarged scale
+of the moving system that is s'=s/γ and the measured velocity as the quotient
+of both remains the same. In case of the Lorentz contraction the equation
+became v=γ²s'/t' with that unexplainable γ² in it.
+
+The collisions of the photons with the surface of the sphere of course happen
+equally for all observers and measured by the wavelengths of the photons also
+after the same distance but they are solely simultaneous for the traveller.
+Supposed the traveller emits photons with his light system in the direction of
+movement. Between the beginning of this transmission and its end, the traveller
+has continued to move at v for the stationary observer. The wavelength for the
+stationary observer is therefore shorter or longer by that distance that the
+traveller has moved during the begin and the end of the transmission of a
+photon.
+The ratio of the wavelengths is therefore (c-v)/c in the direction of movement
+and (c+v)/c in the opposite direction of movement. For the stationary observer,
+the measured frequency of the photons is also lower by the amount by which the
+traveller's clocks are slower, i.e. f=f'/(γ(c-v)/c) in the direction of
+movement and f=f'/(γ(c+v)/c) in the opposite direction and f=f'/γ perpendicular
+to the direction of movement.
+This has also been confirmed empirically and allows us to conduct another
+thought experiment. When electrons and positrons annihilate, two photons of the
+same frequency are released, which contain the total energy of the particles
+and are emitted in opposite directions. How does their total energy change if
+our traveller lets the particles annihilate and one photon is emitted in the
+direction of motion and one in the opposite direction?
+
+[58]    E = hf/(γ(c-v)/c) + hf/(γ(c+v)/c)
+[59]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
+[60]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
+[61]    E = hf(2c² / (γ(c-v)(c+v))
+[62]    E = hf(2c² / ((c²-v²)/γ)
+[63]    E = hf(2γ² / γ)
+[64]    E = 2hfγ
+        ========
+
+The energy of both photons is therefore by γ higher for the stationary
+observer. That would perfectly confirm E=mc²γ if the energy of the particles
+were not reduced by γ due to time dilatation. The energy would be γ² higher if
+moving objects and therefore also atoms were not γ larger and therefore lower
+in energy for an observer at rest and if the time flow in the moving system
+wouldn't be by γ slower for him, what neither E=mc²γ nor E=mc²γ²/2 care about.
+The equation E=mc²γ²/2 seems correct in such a strange way that E=mc²γ is
+usually coincidentally right as well because half of the complete change of
+mass or energy is unknowingly ignored if that applies.
+
+But what about the muons in the Earth's atmosphere? How can those reach the
+ground? The speed of light is only the maximum speed if distance and time are
+measured in the same inertial frame. However, a body never moves relative to
+its own inertial frame, but always moves all distances in a reference frames
+other than its own, and here there is no speed limit, just as in Newtonian
+mechanics, since γ can be arbitrarily large and the time difference of the
+moving system for traveling a distance in the stationary system can therefore
+become arbitrarily short, as well as the distance s, measured by the longer
+scale of the moving system.  
+And what does this look like in the reference system of the muons? Doesn't the
+distance get longer for them? Sure, but what gets longer is the 2-way distance
+only. Distances in the direction of movement are shortened by √((c-v)/(c+v))
+while they are longer by √((c+v)/(c-v)) in the opposite direction, because this
+corresponds to the change of the wavelengths of light in the direction of
+movement and in the opposite direction, while the wavelengths and thus the
+distances measured by these remain unchanged from the perspective of an
+observer who is moving with the light source.
+
+As a confirmation of E=mcγ there have been several test of the derivation of
+relativistic electrons in a magnetic field for measuring the relation between
+the electric charge and a growing particle mass which has found to be growing
+according to E=mcγ. Within the related calculations the relativistic growth
+of the forces of the electric or magnetic fields has always been ignored and
+a growing of the mass according γ was assumed. But as we already know are
+the forces of the electric field growing according to γ². Therefore the
+centrifugal force Fz should grow according γ³ to be in agreement to the results
+of this experiments. The equation of the centrifugal force is given as
+
+[65]    Fz = mv²/r
+
+A relativistic correction of the velocity and the radius gives 
+
+[66]    Fz = mv²γ²/(r/γ)
+[67]    Fz = mv²γ³/r
+
+Because the the electric field forces are growing by γ² and the centrifugal
+force grows by γ³ and is increasing be factor γ more than the electric field
+forces. There is no need for any increasing mass as once postulated by
+Einstein to explain the results.
+
+Electrons in a magnetic field move on a circular path where the center is at
+rest for both the electrons and the observer. The radius of the path is
+perpendicular to the direction of motion and by γ shorter for the moving
+electrons. But if the increase of the centrifugal force results purely
+geometrically why are the electrical and gravitational forces increasing by γ²
+as well? Let's have a look at Newton's law of gravitation and the
+gravitational force Fg for that
+
+[68]    Fg = G m1 m2 / r²
+
+As we can see, the force between the two masses m1 and m2 is proportionally to
+1/r² and because r becomes shorter by γ for a moving mass the force increases
+relativistically by γ²
+
+[69]    Fg = G m1 m2 γ² / r²
+
+The same applies for the force between electric charges that we found in
+equation [2] before. The missing factor γ²γ² of the Lorentz force on the
+right-hand side of equation [3] becomes also obvious and obviously a γ²
+according to γ=√(1 + v²γ²/c²) was missing as a relativistic correction of the
+velocity in equation [8] before as well.
+Of course you find that way also E=mv²γ²/2 for the kinetic energy but there
+are the things not that trivial as we already know.
+
+E=mc² should be pretty well validated and acknowledged in nuclear physics e.g.
+by Rainville et al. 2005 "A direct test of E=mc²"
+( https://www.researchgate.net/publication/
+7399131_World_Year_of_Physics_A_direct_test_of_Emc2 )
+Despite of the claims of that paper a mathematical check shows that some of
+the measured wavelengths were corresponding to E=1.35 mc² instead of E=mc².
+According to E=mc², the wavelength for silicon should be 0.19841e-12m instead
+of 0.14632e-12m and for sulphur 0.19321e-12m instead of 0.14347e-12m.
+The for E=mc² too short wave lengths are also confirmed by Dewey et al. 2006
+"Precision measurement of the Si29, S33, and Cl36 binding energies"
+( https://www.researchgate.net/publication/
+238973414_Precision_measurement_of_the_Si29_S33_and_Cl36_binding_energies )
+The reported energies are there too high as well and only the binding energy of
+deuterons corresponds to E=mc². E=mc² is therefore a rough estimation only and
+there are obviously other factors besides the mass difference that are relevant
+for the energy balance of atomic processes. Therefore an energy equivalent of
+E=0.5mc² for only the mass cannot be ruled out. Of course that results in case
+of E=mc²γ²/2 solely from the relativistic equation of the kinetic energy which
+does not tell anything about a conversion of a rest mass and any assignment of
+the Lorentz factor to the mass happens purely arbitrary and is misleading only.
+
+Unfortunately I didn't find  much information regarding empirical validations
+of E=mc² in the internet. Only the information about the Bertozzi experiment
+is very good. I even found a very interesting video from 1962 showing how he
+carried out the experiment with a slide rule and the Stone Age technology of
+that time https://www.youtube.com/watch?v=B0BOpiMQXQA .
+It's quite interesting to watch and the squeaking V-belt of the old-fashioned
+motor of his vacuum pump quite funny. Unfortunately, his results were too
+imprecise in order to be able to differentiate conclusively between E=mc²γ and
+E=mc²γ²/2. However, if you look at his ancient technique, that inaccuracy is
+not surprising.
+
+Beside of that I found the information about M. Lund and U. I. Uggerhøj 2007
+‘Experimental special relativity with a meter stick and a clock’.
+The description of the experiment and the results are not so detailed and there
+is only a diagram with the measured values. The results correspond to E=mc²γ
+with a slight deviation downwards at energies above 1MeV, but this may also be
+due to the experimental setup. But the results rule out a growth of the
+velocity according to E=mc²γ²/2 or E=mc²γ/2 in in conjunction with an
+unchanging mass.
+
+But what about the perihelion movement? The calculation was wrong because it
+did not take into account the relativistically growing centrifugal force and
+the Shapiro-delay. I didn't even know that time that those even exist.
+However, since the centrifugal and gravitational force are both proportional
+to the mass, a relativistic change of the mass would not lead to any change of
+the orbits of the planets. But in addition to the Shapiro-delay and the growth
+of the centrifugal force the overlong orbit due to the now inverted Lorentz
+contraction must be taken into account, which together give quite the same
+value of 41.162” per century for Mercury.
+
+My condolences to all physicists and other people who did even read until this
+point and possibly are mourning the deceased Lorentz contraction now.
+That may cause some of them a lot of work. Of course this also shows that our
+understanding of the relativistic physics is still far from complete. But with
+every question that is answered, a new mysterious world opens up to us and many
+new questions arise as well.
+
+###############################################################################
+#                                                                             #
+###############################################################################
+

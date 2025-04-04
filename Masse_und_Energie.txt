@@ -1,0 +1,573 @@
+###############################################################################
+#                                                                             #
+#  Copyright (c) 2025 Dipl.-Ing. Klaus Lux (Aachen, Germany)                  #
+#                                                                             #
+#  All rights including the one of funny enhancements reserved!               #
+#                                                                             #
+###############################################################################
+#                                                                             #
+#  Quelle:  https://github/klux21/science_stuff                               #
+#                                                                             #
+###############################################################################
+#                                                                             #
+#  Magnetfelder und die Periheldrehung von Planeten versus E=mc²γ und         #
+#  Lorentz Kontraktion. Irrte Einstein ???                                    #
+#                                                                             #
+###############################################################################
+
+"Was wir wissen ist ein Tropfen. Was wir nicht wissen ist ein Ozean."
+(Sir Isaac Newton)
+
+Ich hatte vor ewig langer Zeit einmal die Periheldrehung über die
+relativistisch höhere Masse der Sonne und die dadurch gegenüber Newton höhere
+Kraft auf die Planeten berechnet, wobei ich den gleichen relativistischen
+Zuwachs der Kraft wie dem des elektrischen Feldes einer bewegten Ladung annahm.
+Als ich mich neulich mal wieder daran erinnert, kramte ich die Sache noch
+einmal hervor und hatte sie nochmal gesichtet. Hier ist das etwas unerwartete
+Ergebnis bei dem ich endete.
+
+Die Idee ehedem war, daß die Periheldrehung aus dem höheren Auslenkwinkel auf
+Grund der speziell relativistisch wachsenden Gravitationskraft der Sonne auf
+die Planeten folgt. Wenn man sich die Bahn der Planeten wie eine aufgewickelte
+Drahtrolle vorstellt und die Biegung des Drahtes an einer Stelle leicht erhöht,
+dann dreht sich die gesamte Drahtrolle entsprechend dieser zusätzlichen Biegung
+und damit das Perihel der Planetenbahn.
+
+Vorausgegangen war dem die Berechnung der Kraft zwischen bei zwei aneinander
+im Abstand r vorbei bewegten Punktladungen
+
+[1]    B  = µ H = µ q v /(4 π r²)
+[2]    FR = e e /(4 π r² ε)
+[3]    FL = e v x B
+[4]    FL = e v x µ e v/(4 π r²)
+[5]    F  = FR + FL
+[6] -> F  = FR(1 + FL/FR)
+[7] -> F  = FR(1 + µ ε v²)
+[8] -> F  = FR(1 + v²/c²)
+
+Hierbei sind:
+
+ e  = elektrische Punktladung 
+ B  = magnetische Flußdichte
+ H  = magnetische Feldstärke
+ F  = resultierende Gesamtkraft
+ FR = Kraft zwischen im Abstand r zueinander ruhenden Ladungen
+ FL = Lorentzkraft wenn sich Ladungen im Abstand r mit der
+      Geschwindigkeit v aneinander vorbei bewegen
+ µ  = magnetische Feldkonstante
+ ε  = elektrische Feldkonstante
+ π  = Kreiszahl Pi
+ v  = (Newtonsche, nicht relativistische) Geschwindigkeit
+
+Die elektrische Feldkraft wächst somit mit (1 + v²/c²), wobei sie der Kraft des
+Magnetfeldes der bewegten elektrischen Ladung entspricht und zu dieser
+identisch ist.
+
+Da der Auslenkwinkel aus der Geraden bei einer senkrecht zur Bewegungsrichtung
+wirkenden Gravitationskraft bei kleinen Kräften und Auslenkungen proportional
+zur wirkenden Kraft ist, sollte ein relativistisches Anwachsen der
+Gravitationskraft folglich eine diesem Kraftzuwachs proportionale
+Periheldrehung zur Folge haben.
+Der nichtrelativistische Gesamtauslenkwinkel bei einer Kreisbahn ist 2π. Die
+Kreisbahngeschwindigkeit eines Körpers nach Newton berechnet sich gemäß
+
+[9]     vb = √(G M / r)
+
+und die Fluchtgeschwindigkeit, weshalb die Sonne ebenfalls aus Sicht der
+Merkurbahn energiereicher und somit massereicher als für einen weit entfernte
+Beobachter ist berechnet sich gemäß
+
+[10]    v2 = √(2 G M / r)
+
+wobei G die Gravitationskonstante, M die Masse der Sonne ist, und r der
+Bahnradius bzw. die große Halbachse der Planetenbahn ist. Da beide
+Geschwindigkeitsvektoren senkrecht aufeinander stehen, ergibt sich bei
+vektorieller Addition die Gesamtgeschwindigkeit von
+
+[11]    vg = √(3 G M / r)
+
+Bei einem relativistischem Anwachsen der Gravitationskraft um den Faktor
+(1+v²/c²) ergibt sich bei einem Kraftzuwachs von v²/c² der zusätzliche
+Auslenkwinkel Pd = 2 π (v²/c²) pro Umlauf und somit ergibt sich die zu
+erwartende Periheldrehung pro Umlauf folglich mit
+
+[12] -> Pd = 2 π 3 G M / r / c²
+
+Das ist zwar über die Kräfte und unter Vernachlässigung der Ellipse
+hergeleitet, entspricht aber genau dem, was sich auch über die ART ergibt und
+steht somit nicht in Widerspruch zur ART, weil die Energie und Kräfte rein vom
+Beobachter abhängen und Atome im G-Feld bekanntlich proportional zur Dehnung
+der Zeitverlaufs gedehnt sind.
+Die Sonne ist somit für die Planeten kleiner, energie- und massereicher als für
+einen weit entfernten Beobachter und entsprechend der Dehnung der Atome ist die
+Umlaufbahn aus Sicht eines Planeten um genau das kürzer, was sie auf Grund der
+gravitativen Dehnung des Raums länger ist. So war meine Annahme.
+Die obige Gleichung dürfte so nur für Geschwindigkeiten viel kleiner als c
+stimmen. Für Geschwindigkeiten nahe c ist die Rechnung unzureichend und
+für höhere Geschwindigkeiten sollte der Term (1 + v²/c²) für die (newtonsche) 
+Geschwindigkeit durch das Quadrat des Lorentzfaktors (1 + v²/(c²-v²)) ersetzt
+werden, das sich unschwer zu erkennen dahinter verbirgt. Die Differenz ist auch
+bei der Lorentzkraft bei üblichen Querschnitten elektrischer Leiter
+vernachlässigbar winzig. Es ist natürlich interessant, daß die Lorentzkraft und
+somit Magnetfelder ein rein relativistischer Effekt sind. Aber auch für die
+Periheldrehung der Planeten im Sonnensystem ist dieser Unterschied komplett
+vernachlässigbar.
+
+Aber war damit alles geklärt und erwartungskonform? Leider nein, denn die
+Periheldrehung stimmte zwar, aber der relativistische Massezuwachs bzw. der
+elektrische Kräftezuwachs waren nicht proportional zum Lorentzfaktor γ und
+somit proportional zu dem gemäß E=mc²γ postulierten relativistischen
+Massezuwachs, sondern offensichtlich mit zum Quadrat des Lorentzfaktors, sprich
+γ², was doch bedeutet, daß auch Masse und Energie proportional zu γ² anwachsen
+sollten!
+Grund genug, dieser Sache auf den Grund zu gehen, auch wenn einige Physiker
+sich vermutlich über meine hochgradig vereinfachende und rein speziell-
+relativistische Berechnerei der gravitativen Kräfte und der Periheldrehung
+bereits die Haare raufen, da diese ja angeblich gar nicht funktionieren sollen.
+
+Kurz ein Hinweis für alle Leser zum relativistischen Lorentzfaktor γ, bei
+welchem die Schreibweise γ=√(1 + v²/(c²-v²)) gegenüber der alternativen Form
+γ=√(1/(1 - (v²/c²))) manchmal zu bevorzugen ist, weil bei der ersteren
+Schreibweise der statische und der relativistisch anwachsende Anteil innerhalb
+des Terms etwas deutlicher separiert sind. Wenn man sich beide Versionen aber
+als gleichbedeutend merkt, dann vereinfacht das Umstellen von einfachen
+relativistischen Gleichungen erheblich. Leicht andere Formen von γ, denen wir
+auch oft in physikalischen Gleichungen begegnen, sind γ=√(c²/(c²-v²)) und
+γ=√(1 + v²γ²/c²).
+
+Wenn wir abweichend von Einsteins bekannten E=mc²γ von einer Gesamtenergie
+gemäß E=mc²γ² ausgehen und durch Abzug der Energie der Ruhemasse die kinetische
+Energie berechnen, sieht man, daß da die Berechnung der relativistische Energie
+nicht stimmen würde, weil dann gelten würde
+
+[13]    kE = E - mc²
+[14]    kE = mc²γ² - mc²
+[15]    kE = mc² (1 + v²/(c²-v²)) - mc²
+[16]    kE = mv² (1 / (1-(v²/c²))
+[17]    kE = mv² (1 + v²/(c²-v²))
+[18] -> kE = mv²γ²
+
+Bei E=mc² wäre somit die Energie für die Newtonsche Näherung um den Faktor 2 zu
+groß. Daher darf die Ruheenergie bei γ² maximal halb so groß sein, wie von
+Einstein mit E=mc²γ postuliert und somit vermutlich E=mc²γ²/2.
+Es ist somit etwas komplizierter und wir müssen die Sache richtig herleiten.
+
+Aus der bekannten Gleichung für den relativistischen Impuls p=mvγ und einer
+vom Impuls abhängigen kinetischen Energie kE=p²/(2m) ergibt sich die
+relativistische kinetische Energie wie folgt
+
+[19]    kE = p²/(2m)
+[20]    p  = mvγ
+[21]    p² = m²v²γ²
+[22]    p² = m²v²(1 + v²/(c²-v²))
+[23]    p² = m²v²((c²-v² + v²)/(c²-v²))
+[24]    p² = m²c²(v²/(c²-v²))
+[25]    p² = m²c²(γ²-1)
+[26]    p² = m²c²γ² - m²c²
+[27] -> kE = mc²γ²/2 - mc²/2
+
+Die Energie der Ruhemasse, aus der sich die kinetische Energie relativistisch
+entsprechend γ² ergibt ist somit mc²/2. Wenn man diese zur kinetischen Energie
+addiert ergibt sich die Gesamtenergie als
+
+[28] -> E = kE + mc²/2
+[29] -> E = mc²γ²/2
+        ===========
+
+OK - das könnte die Lösung sein. In diesem Fall wäre E=mc²γ falsch und muß
+durch E=mc²γ²/2 ersetzt werden. Aus dieser relativistischen Gesamtenergie
+ergibt sich als Kontrollrechnung die kinetische Energie durch Abziehen der
+Energie der Ruhemasse von der Gesamtenergie wie folgt
+
+[30]    kE = E - mc²/2
+[31]    kE = mc²γ²/2 - mc²/2
+[32]    kE = mc²/2 (1 + v²/(c²-v²)) - mc²/2
+[33]    kE = mv²/2 (1 / (1-(v²/c²))
+[34]    kE = mv²/2 (1 + v²/(c²-v²))
+[35] -> kE = mv²γ²/2
+        ============
+
+Die Newtonsche Näherung der kinetischen Energie sieht formal korrekt aus und
+kE=mv²γ²/2 erscheint auch viel plausibler, weil die Gleichung neben dem Quadrat
+der Geschwindigkeit v auch den zugehörige relativistische Korrekturfaktor γ²
+enthält. Ein Masse-Energie-Äquivalent ergibt sich gemäß E=mc²γ²/2 ebenfalls.
+
+Wir müssen natürlich prüfen, ob diese Gleichung gültig und generell anwendbar
+ist. Hierfür sollten wir uns als erstes die Energiebilanz bei einem freien Fall
+ansehen. Es gilt bei einem senkrechten freien Fall einer Masse für die
+klassische Hubarbeit W
+
+[36]    W   = mgh
+
+und entsprechend der Energieerhaltung
+
+[37]    E'  = E - W
+[38]    E   = E' + W
+
+Für die kinetische Energie und die resultierende Geschwindigkeit des freien
+Falls gilt
+
+[39]    mv²/2 = mgh
+[40]    v²    = 2gh
+
+Für den freien Fall einer Ruhemasse m folgt nach Einsteins E=mc² entsprechend
+
+[41]    E   = mc² + mgh
+[42]    E   = mc²(1 + gh/c²)
+
+für v² << c² entspricht das 
+
+[43]    E   ≈ mc²√(1 + 2gh/c²)
+
+Das ist bekannt und entspräche der Frequenzänderung von Photonen. Aber E=mc²γ
+kann nicht stimmen, sofern es um das relativistische Wachstum der vorab
+berechneten Anziehungskräfte geht, welche proportional zu γ² wachsen sollten.
+
+Wenn dagegen E=mc²γ²/2 gilt, sollte sich die Energie einer frei fallenden Masse
+um γ² ändern und die Energiebilanz dem entsprechen. Es gilt dann
+
+[44]    E   = mc²/2 + mgh
+[45]    E   = (mc²/2)(1 + 2gh/c²)
+
+Wie wir sehen entspricht E=mc²γ²/2 auch perfekt den Erwartungen bzgl. der
+kinetischen Energie.
+
+In den Gleichungen vorab sind
+
+W  = klassische Hubarbeit
+E  = Ausgangsenergie der Photonen bzw. Masse
+E' = Energie nach freiem Fall aus der Höhe s
+m  = Ruhemasse
+h  = Höhe (Hubweg)
+g  = Gravitationsbeschleunigung
+c  = Lichtgeschwindigkeit
+
+Für v << c ergibt sich somit kaum ein Unterschied. Nur wenn man sich das
+Kräftewachstum anschaut, das aus der relativistischen anwachsenden Energie
+resultiert, dann erkennt man, daß elektrische und gravitative  Kräfte und somit
+die zugehörige Energie nicht proportional zu γ sondern zu γ² wachsen sollten.
+
+Aber ändert sich die Energie von Photonen nicht gemäß (1 + gh/c²) wäre bei
+einer Änderung der Masse um (1 + 2gh/c²) nicht ein Perpetuum Mobile möglich?
+Nein, denn da sich die Frequenz von Photonen im Gravitationsfeld nur um den
+Betrag erhöht gemessen wird, um den die Uhren dort langsamer laufen. Somit
+ändern sich Frequenz, Wellenlänge und Energie von Photonen im Gravitationsfeld
+offensichtlich nicht und es hängt alles allein von der Änderung der inneren
+Energie der Uhren bzw. deren Atomen ab, deren Frequenz bzw. Energie sich ja
+bekanntlich entsprechend γ der Fallgeschwindigkeit ändert.
+
+Trotz der Unterschieden im Zeitverlauf legt Licht auf Grund der Konstanz der
+Lichtgeschwindigkeit auch im Gravitationsfeld in der gleichen Zeit die gleiche
+lokale Entfernung zurück. Da sich die Frequenzänderung der Photonen allein
+durch den Gangunterschied der Uhren ergibt, sollten die Uhren bzw. deren Atome
+im Gravitationsfeld um den gleichen Faktor gedehnt sein, um den die Uhren
+langsamer gehen. Die Größe von Atomen und atomaren Teilchen, d.h. deren Compton
+Wellenlänge, ist daher um γ und somit proportional zur längeren Dauer der
+atomaren Übergänge größer. Dadurch verringert sich die Frequenz von Atomuhren
+und zugleich die Geschwindigkeit des Zeitverlaufs.
+Da Atome im Gravitationsfeld um γ größer sind, ist die Energie der
+Elementarteilchen um γ geringer. Das entspräche dann aber E=mc²γ und nicht
+E=mc²γ²/2, welches damit falsch sein sollte, oder nicht?
+Die Dinge sind nicht immer so trivial, wie sie auf den ersten Blick scheinen.
+Und da wir nahezu überzeugt sind, daß E=mc²γ²/2 stimmen sollte, müssen wir
+schauen, wo die fehlende Energie unserer erwarteten Änderung von γ² steckt.
+
+Die Messungen der Shapiro-Verzögerung belegten, daß sich die Zeit, welche
+Photonen zum Durchqueren eines Gravitationsfeld benötigen, um γ² der jeweils
+lokalen Fluchtgeschwindigkeit verlängert. Eine Verlangsamung der Ausbreitung
+von Wellen hat zwangsweise eine zu ihrer Ausbreitungsgeschwindigkeit invers
+proportionale Erhöhung ihrer Frequenz zur Folge. Die Frequenz der Photonen
+sollte daher bezogen auf die Koordinatengeschwindigkeit um γ² wachsen.
+Da sie aber mit einer Frequenzerhöhung von γ detektiert werden, bedeutet das,
+das die Energie der Atome um γ höher ist als sie gemäß γ² sein sollte.  
+Nur warum ändert sich die Energie der Atome nicht um γ²? Was wurde übersehen?
+
+Die Antwort ist, daß an physikalischen Wechselwirkungen, wie der Gravitation,
+mehr als nur ein Körper beteiligt ist. Wir hatten die Energie der anziehenden
+Masse ignoriert, die sich in Summe um den gleichen Betrag verringert, um
+welchen sich auch die Energie der Atome in unseren Atomuhren verringert. Wenn
+die anziehende Masse gleich der unserer Atomuhren wäre, dann wäre es jedem
+sofort klar, daß deren Atome insgesamt die gleiche Menge an Energie verlieren
+oder gewinnen, welche die Atome der Atomuhr verlieren oder gewinnen.  
+Die bei einem freien Fall freigesetzte kinetische Energie entspricht natürlich
+der Änderung der inneren Energie aller beteiligten Massen.
+Die Verteilung der freigesetzten kinetischen Energie auf die Massen wird
+dagegen von der Impulserhaltung bestimmt. Wenn E=mc²γ gelten würde, dann würde
+würde die Hälfte der freigesetzten Energie fehlen! Unsere Gleichung für die
+Gesamtenergie vorab war somit unvollständig, weil darin die Energie jener Masse
+fehlte, welche die Gravitationsbeschleunigung verursacht! Damit wäre E=mc²γ²/2
+korrekt und nicht E=mc²γ.
+
+Wiederholen wir einmal die Grundlagen der speziellen Relativitätstheorie,
+welche darauf basieren, daß die Lichtgeschwindigkeit in allen Inertialsystemen
+und in alle Richtungen gleich ist.
+
+Unser bewegter Beobachter hat seinen alten Einsteinzug inzwischen gegen eine
+stylische Reisekugel mit einer reflektierenden Oberfläche getauscht, in deren
+Mitte eine Lichtanlage ist, die auf Knopfdruck zeitgleich Lichtpulse in alle
+Richtungen sendet, welche von der Kugeloberfläche reflektiert werden und
+zeitgleich von den Sensoren im Zentrum der Kugel wieder empfangen werden.
+Alle Lichtpulse bewegen sich für jeden Beobachter mit c und werden, nachdem
+sie von der Kugel reflektiert werden, aus Sicht aller Beobachter zeitgleich
+von den Sensoren empfangen.
+
+Beginnen wir mit der Herleitung des Lorentzfaktors. Ein Lichtpuls wird
+senkrecht nach oben gesendet und wird nach dem Reflektieren durch die Kugel
+und dem zweimaligen Zurücklegen des Radius r wieder in der Mitte der Kugel
+empfangen. Die Kugel hat sich während dessen für den unbewegten Beobachter
+um die Strecke 2s mit der Geschwindigkeit v weiterbewegt und das Licht sich
+für diesen somit nicht senkrecht sondern schräg zur Decke und zurück entlang
+der gegenüber dem Radius r längeren Strecke a bewegt. Siehe
+https://github.com/klux21/science_stuff/blob/master/dao_of_relativity.png
+für eine Skizze einer solchen Ellipse. Es gilt gemäß dem Satz des Pythagoras
+
+[49]    a² = s² + r²
+
+Und für die Zeitdifferenz t des ruhenden Beobachters und t' des bewegten
+Beobachters gilt somit
+
+[50]    (t*c)² = (t*v)² + (t'*c)²
+[51]    c²t'² = t²(c²-v²)
+[52]    t = t' √(c²/(c²-v²))
+[53]    t = t'γ
+
+Die bewegten Uhren unseres Reisenden gehen somit um γ langsamer.
+Analog gilt für die Wege des Lichts
+
+[54]    r² = a² - s²
+[55]    r  = a √(1 - s²/a²)
+[56]    r  = a √(1 - (v*t)²/(c*t)²)
+[57]    a  = rγ
+
+Der Lichtweg a den der ruhende Beobachter beobachtet ist somit um Faktor γ
+länger, nur ist diese Strecke nicht ganz senkrecht zur Bewegungsrichtung, wie
+sie es aus der Perspektive des Reisenden ist.
+Was ist mit den Lichtstrahlen in die anderen Richtungen? Da sie alle zeitgleich
+ausgesandt, von der Kugel reflektiert und zeitgleich wieder empfangen werden,
+legen sie wegen der identischen Lichtlaufzeiten aus Sicht beider Beobachter
+alle die gleiche Gesamtstrecke zurück.
+Das bedeutet, daß ihre Reflektionspunkte für einen ruhenden Beobachter auf der
+Oberfläche eines Rotationsellipsoids liegen, welche sie zu unterschiedlichen
+Zeiten erreichen. Die Brennpunkte des perfekt elliptischen Längstschnittes des
+Ellipsoids decken sich mit der Positionen wo die Lichtpulse aus Sicht der
+unbewegten Beobachter gesendet und empfangen werden.
+
+Alle Wege, welche die Lichtpulse in unterschiedliche Richtungen zwischen den
+Brennpunkten zurück legen, haben in Summe die Länge 2a, weshalb 2a zugleich
+die Länge des Ellipsoids für ruhende Beobachter ist. Das ist länger als die 2r,
+welches die Länge der Kugel für unseren Reisenden ist. Generell gilt daher, daß
+alle 2-Wege Distanzen und Entfernungen innerhalb des bewegten Systems aus der
+Sicht dieses bewegten Bezugssystemens um γ kürzer sind und das unabhängig von
+ihrer Richtung.
+
+Durch die Bewegung des Zentrums der Kugel existiert für den unbewegten
+Beobachter zwischen Hin- und Rückweg des Lichts ein Winkel und die Entfernung
+zur Kugeloberfläche und zurück zu ihrem Zentrum ist für den Reisenden in alle
+Richtungen um γ kürzer als für einen unbewegten Beobachter. Die Zeit, welche
+die Photonen benötigen, um die Entfernung zur Sphäre und und zurück zulegen ist
+somit für den Reisenden ebenfalls um γ kürzer. Daher müssen auch dessen Uhren
+aus Sicht eines unbewegten Beobachters um γ langsamer gehen.
+
+Eine Lorentzkontraktion existiert entsprechend nicht. Bewegte Objekte und Atome
+sind aus Sicht des ruhenden System länger und somit größer als ruhende und sie
+sind keineswegs in einem bewegten System gegenüber einem ruhenden verkürzt.
+Durch die um γ vergrößerten atomaren Übergänge gehen bewegte Uhren langsamer.
+wie uns auch die Gleichungen des relativistischen Dopplereffekt zeigen. Das
+Längenverhältnis von Objekten ist mit l'/l=γ (bzw. mit a/r=γ) reziprok zu dem
+Postulat der Lorentzkontraktion, welche somit falsch ist!
+Für die Herleitung der Lorentz Kontraktion fragten sich Lorentz und Einstein,
+welche Zeit auf einer verlangsamten Uhr vergeht, um eine untransformierte Länge
+im ruhenden System zurückzulegen und da γ unendlich werden kann, gäbe da kein
+Geschwindigkeitslimit und dann nahmen sie an, daß eine Länge im bewegten System
+um die gleiche Länge verkürzt wäre, nur die Physik funktioniert in Wirklichkeit
+nicht so, denn sie verwechselten die den Längen zugehörigen Bezugssysteme bei
+der Herleitung derGleichungen, ohne es zu merken.
+
+Die relativistische Dehnung läßt unmittelbar über die relativistische
+Dopplerverschiebung messen und und ist darüber empirisch perfekt bestätigt.
+Die relativistische Dopplerverschiebung gibt Aufschluß über die Längenänderung
+in die jeweilige Richtung, weil die Frequenz von Licht aus Sicht eines
+Mitreisenden in alle Richtungen gegenüber der Ruhe unverändert bleibt und
+ebenso alle an dieser Wellenlänge des Lichts gemessenen Abstände in seinem
+Inertialsystem. Für die Länge ist die 2-Wege Lichtgeschwindigkeit entscheidend.
+Daher müssen die Frequenzen in zwei entgegengesetzte Richtung gemessen werden 
+und wie wir bereits wissen, vergrößern sich die Distanzen im bewegten
+Bezugssystem um γ.
+
+Ein Paradoxon, das zugleich entfällt, ist aber das der Geschwindigkeiten. In
+einem bewegten System wird natürlich die gleiche Relativgeschwindigkeit
+gemessen wie im unbewegten System. Wenn die Zeit im bewegten System langsamer
+vergeht, dann müssen die Entfernungen in diesem lokal gemessen werden um den
+gleichen Faktor kürzer sein, um den die Zeit in Vergleich langsamer vergeht.
+Das Zurücklegen der Strecke s im unbewegten System benötigt laut der Uhr im
+bewegten System nur die die Zeit t'=t/γ aber zugleich wird die Strecke s des
+ruhenden Systems gemessen mit einem um γ größeren Maßstab des bewegten Systems
+zu s'=s/γ und die gemessene Geschwindigkeit bleibt somit die gleiche. Bei der
+Lorentzkontraktion ergab sich ja v=γ²s'/t' mit dem unerklärlichen γ² darin.
+
+Die Kollisionen der Photonen mit der Kugeloberfläche passieren jedoch für alle
+Beobachter gleichermaßen und allein gemessen an der Wellenlänge der Photonen
+auch nach derselben Distanz, sie sind jedoch nur für den Reisenden zeitgleich.
+Gesetzt den Fall, Reisende sendet mit seiner Lichtanlage Photonen in
+Bewegungsrichtung aus, deren Wellenlänge gleich dem Radius seiner Kugel ist.
+Zwischen dem Beginn dieses Sendens bis zu dessen Ende hat sich der Reisende für
+den unbewegten Beobachter mit v weiterbewegt. Die Wellenlänge ist für den
+unbewegten Beobachter daher um jene Strecke länger oder kürzer, die sich der
+Reisende beim Senden zwischen dem Begin und dem Ende eines Photons weiterbewegt
+hat. Das Verhältnis der Wellenlängen ist somit (c-v)/c in Bewegungsrichtung und
+in Gegenrichtung der Bewegung (c+v)/c. Die gemessene Frequenz der Photonen ist
+für den unbewegten Beobachter zusätzlich um das geringer, was die Uhren des
+Reisenden langsamer gehen d.h. f=f'/(γ(c-v)/c) in Bewegungsrichtung und
+f=f'/(γ(c+v)/c) in Gegenrichtung und f=f'/γ senkrecht zur Bewegungsrichtung.
+Das wurde so auch empirisch bestätigt und ermöglicht uns ein weiteres
+Gedankenexperiment. Bei der Annihilation von Elektronen und Positronen, werden
+2 Photonen gleicher Frequenz frei, welche die Gesamtenergie der Teilchen
+enthalten in zueinander entgegengesetzte Richtungen abgestrahlt werden. Wie
+ändert sich deren Gesamtenergie, wenn unser Reisende die Teilchen annihilieren
+läßt und ein Photon in Bewegungsrichtung und eines in Gegenrichtung abgestrahlt
+wird?
+
+[58]    E = hf/(γ(c-v)/c) + hf/(γ(c+v)/c)
+[59]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
+[60]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
+[61]    E = hf(2c² / (γ(c-v)(c+v))
+[62]    E = hf(2c² / ((c²-v²)/γ)
+[63]    E = hf(2γ² / γ)
+[64]    E = 2hfγ
+        ========
+
+Die Energie beider Photonen ist für den unbewegten Beobachter somit um γ höher,
+was E=mc²γ perfekt bestätigen würde, wenn die Energie der Teilchen nicht durch
+die Zeitdilatation um γ verringert wäre. Die Energie wäre um γ² höher, wenn
+nicht für einen ruhenden Beobachter bewegte Objekte und somit auch Atome um γ
+größer und damit energieärmer wären und die Zeit im bewegten System für ihn
+nicht um γ langsamer gehen würde, was weder E=mc²γ noch E=mc²γ²/2 beinhalten.
+Die Gleichung E=mc²γ²/2 scheint auf eine so seltsame Weise richtig, daß E=mc²γ
+gewöhnlich auch stimmt, weil dabei die Hälfte der vollständigen Masse- oder
+Energieänderung meist unwissentlich ignoriert wird.
+
+Nur was ist mit den Myonen in der Erdatmoshäre? Wie können diese den Boden
+erreichen? Die Lichtgeschwindigkeit ist nur dann die Höchstgeschwindigkeit,
+wenn Weg und Zeit im selben Inertialsystem gemessen werde. Ein Körper bewegt
+sich aber nie relativ zu seinem eigenen Inertialsystem, sondern legt alle
+Strecken und Distanzen stets anderen Bezugssystemen als dem eigenen zurück und
+hierbei existiert ein Geschwindigkeitslimit ebenso wenig, wie in der
+Newtonschen Mechanik da γ beliebig groß werden kann und die Zeitdifferenz
+des sich bewegenden Systems für das zurücklegen einer Strecke im ruhenden
+System somit beliebig kurz werden kann, ebenso wie die Strecke s, gemessen an
+dem gedehnten Maßstab des sich bewegenden Systems.
+Und wie sieht das im Bezugssystem der Myonen aus? Wird die Distanz für die
+nicht länger? Sicherlich, aber was länger wird ist nur die 2-Wege-Distanz.
+Entfernungen in Bewegungsrichtung sind um √((c-v)/(c+v)) verkürzt während sie
+in Gegenrichtung um √((c+v)/(c-v)) länger sind, denn das entspricht der
+Änderung der Wellenlängen von Licht in Bewegungsrichtung und entgegengesetzt,
+während die Wellenlängen und somit an diesen gemessene Entfernungen aus Sicht
+eines sich mit der Lichtquelle mitbewegenden Beobachters unverändert bleiben.
+
+Als Beleg für E=mc²γ findet man Experimente, bei welchen eine Ablenkung von
+Elektronen im Magnetfeld auf das Verhältnis von elektrischer Ladung zur Masse
+geschlossen wird, die ein Anwachsen der Masse gemäß E=mcγ bestätigen. Bei den
+zugehörigen Berechnungen wird das vorab berechnete Anwachsen der elektrischen
+Feldkräfte stets vernachlässigt und gleichzeitig auf ein Anwachsen der Masse
+mit γ geschlossen. Aber wir wissen, wachsen die elektrischen Feldkräfte aber
+mit γ². Somit muß die Zentrifugalkraft Fz mit γ³ wachsen, um in Übereinstimmung
+mit den Experimenten zu stehen. Die Gleichung der Zentrifugalkraft lautet
+
+[65]    Fz = mv²/r
+
+Eine relativistische Korrektur der Geschwindigkeit und des Radius ergibt
+
+[66]    Fz = mv²γ²/(r/γ)
+[67]    Fz = mv²γ³/r
+
+Die elektrischen Feldkräfte wachsen somit mit γ² und die Zentrifugalkraft mit
+γ³ und die Zentrifugalkraft wächst somit um γ stärker als die elektrischen
+Feldkräfte. Es gibt daher keine Notwendigkeit für eine um γ anwachsende Masse
+wie ehemals von Einstein postuliert, um die Versuchsergebnisse zu erklären.
+
+Elektronen im Magnetfeld bewegen sich auf einer Kreisbahn, deren Zentrum sowohl
+für die Elektronen als auch für deren Beobachter ruht. Der Radius dieser Bahn
+ist senkrecht zu ihrer Bewegungsrichtung für die sich bewegenden Elektronen um
+γ verkürzt. Aber wenn sich das Anwachsen der Zentrifugalkraft rein geometrisch
+ergibt, warum wachsen dann die elektrischen und gravitativen Kräfte mit γ²?
+Laßt uns dafür einen Blick auf Newtons Gravitationsgesetz und die
+Gravitationskraft Fg werfen
+
+[68]    Fg = G m1 m2 / r²
+
+Wie wir sehen, wächst die Kraft zwischen den beiden Massen m1 und m2
+proportional zu 1/r² und weil r für einen sich bewegenden Körper um γ verkürzt
+ist, wächst die Kraft relativistisch um γ².
+
+[69]    Fg = G m1 m2 γ² / r²
+
+Das gleiche gilt analog für die Kraft zwischen elektrischen Ladungen in
+Gleichung [2]. Und der fehlende Faktor γ²γ² der Lorentzkraft auf der rechten
+Seite von Gleichung [3] dürfte auch niemanden wundern und offensichtlich fehlte
+ebenfalls auch γ² gemäß γ=√(1 + v²γ²/c²) als relativistische Korrektur der
+Geschwindigkeit in Gleichung [8]. 
+Natürlich ergibt sich auf diese Art auch E=mv²γ²/2 für die kinetische Energie,
+aber da sind die Dinge nicht so trivial, wie wir bereits wissen.
+
+E=mc² sollte eigentlich innerhalb der Atomphysik sehr gut bestätigt sein, z.B
+durch Rainville et al. 2005 "A direct test of E=mc²"
+( https://www.researchgate.net/publication/
+7399131_World_Year_of_Physics_A_direct_test_of_Emc2 )
+Eine rechnerische Überprüfung zeigt jedoch, daß die gemessenen Wellenlängen
+teilweise E=1.35 mc² entsprechen und nicht E=mc². Gemäß E=mc² müßte die
+Wellenlänge bei Silizium 0.19841e-12m statt 0.14632e-12m betragen und für
+Schwefel 0.19321e-12m statt 0.14347e-12m.
+Die für E=mc² zu kurzen Wellenlängen findet man analog bei Dewey et al. 2006
+"Precision measurement of the Si29, S33, and Cl36 binding energies"
+( https://www.researchgate.net/publication/
+238973414_Precision_measurement_of_the_Si29_S33_and_Cl36_binding_energies )
+Auch hier findet man die zu hohen Energien und lediglich die Bindungsenergie
+von Deuteronen entspricht E=mc². E=mc² ist somit nur ein grober Richtwert und
+es sind offensichtlich noch weitere Faktoren neben der Massedifferenz für die
+Energiebilanz atomarer Prozesse entscheidend. Damit wäre gleichzeitig auch ein
+Energieäquivalent von E=0.5mc² für die Masse allein nicht auszuschließen.
+Dieses ergibt sich bei E=mc²γ²/2 jedoch nur aus der relativistischen Gleichung
+der kinetischen Energie, welche keine Umwandlungen der Ruhemasse beinhaltet und
+eine Zuordnung des Lorentzfaktors zur Masse ist willkürlich und irreführend.
+
+Leider fand ich zu einer direkten empirische Bestätigung von E=mc² im Internet
+kaum was. Lediglich die Informationen zum Bertozzi Experiment sind noch recht
+detailiert. Ich fand dazu sogar ein interessantes Videos von 1962, wie er mit
+Rechenschieber und Steinzeittechnik seinerzeit das Experiment durchführte,
+siehe https://www.youtube.com/watch?v=B0BOpiMQXQA .
+Es ist recht interessant anzusehen und der quietschenden Keilriemen des
+altertümlichen Motors der Vakuumpumpe ist recht lustig. Nur leider waren die
+Ergebnisse viel zu ungenau, um darüber schlüssig zwischen E=mc²γ und E=mc²γ²/2
+unterscheiden zu können. Wenn man sich aber die altertümliche Technik ansieht,
+dann wundert einen diese Ungenauigkeit aber nicht.
+
+Daneben fand ich noch die Informationen über M. Lund and U. I. Uggerhøj 2007
+"Experimental special relativity with a meter stick and a clock"
+Die Versuchsbeschreibung und Ergebnisse dazu sind nicht so detailliert, es
+ist nur ein Diagramm mit den Meßwerten enthalten. Die Ergebnisse entsprechen
+E=mc²γ mit geringfügiger Abweichung nach unten bei Energien oberhalb von 1MeV,
+die aber auch dem Versuchsaufbau geschuldet sein können. Aber die Ergebnisse
+schließen ein Anwachsen der Geschwindigkeit gemäß E=mc²γ²/2 oder E=mc²γ/2 in
+Verbindung mit einer sich nicht ändernden Masse aus. 
+
+Aber was ist mit der Periheldrehung? Die Berechnung war falsch, da sie die
+relativistisch wachsende Zentrifugalkraft und die Shapiro-Verzögerung nicht
+berücksichtigte. Ich wußte ehedem ja nicht mal, daß es das gibt.
+Da jedoch sowohl Zentrifugalkraft als auch Gravitationskraft proportional zur
+Masse sind, würde eine relativistische Masseänderung zu keiner Bahnänderung der
+Planeten führen. Zusätzlich zur Zentrifugalkraft und der Shapiro-Verzögerung
+muß jedoch die verlängerte Bahn auf Grund der invertierten Lorentzkontraktion
+berücksichtigt werden, was zusammen den annähernd gleichen Wert von 41.162" pro
+Jahrhundert für Merkur liefert.
+
+Mein Beileid an alle Physiker und andere Leute, die sich bis hier durchgekämpft
+haben und möglicherweise jetzt um die gestorbene Lorentzkontraktion trauern.
+Das dürfte einigen viel Arbeit verursachen. Das zeigt natürlich auch, daß unser
+Verständnis der relativistischen Physik noch alles andere als vollständig ist.
+Aber mit jeder Frage, die beantwortet wird, öffnet sich auch eine neue
+geheimnisvolle Welt und es stellen sich zugleich viele neue Fragen.
+
+###############################################################################
+#                                                                             #
+###############################################################################
+
