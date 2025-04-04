@@ -131,7 +131,7 @@ form γ=√(1/(1 - (v²/c²))). This is because the former notation more clearly
 separates the static and relativistic growing components within that term. If
 one memorizes both versions as being equivalent, this simplifies the conversion
 of simple relativistic equations considerably. Slightly other forms of γ that
-we face sometimes in physical equations as well are γ=√(c²/(c²-v²)) and
+we face sometimes in physical equations are γ=√(c²/(c²-v²)) and
 γ=√(1 + v²γ²/c²).
 
 If we assume a total energy E=mc²γ² as missing extension to Einstein's known
