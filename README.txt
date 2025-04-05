@@ -12,7 +12,7 @@
 - E=mc² should only be used as a rough estimate within nuclear physics.
   There exist empirical data of nuclear processes where the released energy
   exceeds E=mc².
-- A Lorentz contraction doesn't exists. Instead there exists an elongation
+- A Lorentz contraction doesn't exist. Instead there exists an elongation
   of moving objects for a stationary observer with the length relation l=γl'.
 - Photons do not change their energy, wavelength or frequency in the
   gravitational field.
