@@ -403,7 +403,7 @@ Das Zurücklegen der Strecke s im unbewegten System benötigt laut der Uhr im
 bewegten System nur die die Zeit t'=t/γ aber zugleich wird die Strecke s des
 ruhenden Systems gemessen mit einem um γ größeren Maßstab des bewegten Systems
 zu s'=s/γ und die gemessene Geschwindigkeit bleibt somit die gleiche. Bei der
-Lorentzkontraktion ergab sich ja v=γ²s'/t' mit dem unerklärlichen γ² darin.
+Lorentzkontraktion ergab sich ja v=s'/(t'γ²) mit dem unerklärlichen γ² darin.
 
 Die Kollisionen der Photonen mit der Kugeloberfläche passieren jedoch für alle
 Beobachter gleichermaßen und allein gemessen an der Wellenlänge der Photonen

@@ -400,7 +400,7 @@ only the shorter time t'=t/γ within the moving system but at the same time the
 distance s withing the resting system is measured with the by γ enlarged scale
 of the moving system that is s'=s/γ and the measured velocity as the quotient
 of both remains the same. In case of the Lorentz contraction the equation
-became v=γ²s'/t' with that unexplainable γ² in it.
+became v=s'/(t'γ²) with that unexplainable γ² in it.
 
 The collisions of the photons with the surface of the sphere of course happen
 equally for all observers and measured by the wavelengths of the photons also
