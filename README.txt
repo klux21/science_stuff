@@ -15,8 +15,8 @@ small list of things that I currently see as a given.
 - E=mc² should only be used as a rough estimate within nuclear physics.
   There exist empirical data of nuclear processes where the released energy
   exceeds E=mc².
-- A Lorentz contraction doesn't exist. Instead there exists an elongation
-  of moving objects for a stationary observer with the length relation l=γl'.
+- There exists an elongation of all 2 way distance in a moving frame for a
+  stationary observer with the length relation l=γl'.
 - Photons do not change their energy, wavelength or frequency in the
   gravitational field.
 - The measured differences of the frequency of photons in the gravitational
@@ -72,9 +72,8 @@ eine kleine Liste an Dingen, die ich derzeit als gegeben ansehe.
 - E=mc² sollte innerhalb der Kernphysik nur als grober Richtwert gelten.
   Es gibt empirische Daten über nukleare Prozesse, wo die freiwerdende Energie
   E=mc² übersteigt.
-- Eine Lorentzkontraktion gibt es nicht. Statt dessen existiert eine Dehnung
-  sich bewegender Objekte aus Sicht eines unbewegten Beobachters, wobei das
-  Längenverhältnis l=γl' beträgt.
+- Es existiert eine Dehnung aller 2 Wege-Distanzen im bewegten Inertialsystem,
+  wobei das Längenverhältnis l=γl' beträgt.
 - Photonen ändern im Gravitationsfeld weder Energie, noch Wellenlänge noch
   Frequenz.
 - Die gemessenen Änderungen von der Frequenz von Photonen im Gravitationsfeld
