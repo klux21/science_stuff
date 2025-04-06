@@ -1,4 +1,7 @@
--------------------------------------------------------------------------------
+What is this repository for? It mainly contains ideas and small calculations on
+physics. After all, you can only make progress if you constantly reassess your
+own view of things, whether that is right or wrong. Below is a small list of
+things that I currently see as a given.
 
 - The Lorentz factor γ is an important part of the relativistic physics.
   The following notations of the relationship between the speed v, the speed
@@ -51,6 +54,11 @@ Important note:
   that kind of nitpicking you won't make yourself any friends as well! ;o)
 
 -------------------------------------------------------------------------------
+
+Wofür ist dieses Repository? Es enthält vor allem Ideen und kleinere
+Berechnungen zur Physik. Man kommt ja nur voran, wenn man die eigene Sicht der
+Dinge, sei sie richtig oder falsch, immer wieder neu auf den Prüfstand stellt.
+Nachfolgend eine kleine Liste von Dingen, die ich derzeit als gegeben ansehe.
 
 - Der Lorentzfaktor γ ist zentraler Bestandteil der relativistischer Physik.
   Folgende Schreibweisen der Beziehung zwischen der Geschwindigkeit v, der
