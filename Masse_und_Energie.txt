@@ -368,21 +368,6 @@ die Photonen benötigen, um die Entfernung zur Sphäre und und zurück zulegen i
 somit für den Reisenden ebenfalls um γ kürzer. Daher müssen auch dessen Uhren
 aus Sicht eines unbewegten Beobachters um γ langsamer gehen.
 
-Eine Lorentzkontraktion existiert entsprechend nicht. Bewegte Objekte und Atome
-sind aus Sicht des ruhenden System länger und somit größer als ruhende und sie
-sind keineswegs in einem bewegten System gegenüber einem ruhenden verkürzt.
-Durch die um γ vergrößerten atomaren Übergänge gehen bewegte Uhren langsamer.
-wie uns auch die Gleichungen des relativistischen Dopplereffekt zeigen. Das
-Längenverhältnis von Objekten ist mit l'/l=γ (bzw. mit a/r=γ) reziprok zu dem
-Postulat der Lorentzkontraktion, welche somit falsch ist!
-Für die Herleitung der Lorentz Kontraktion fragten sich Lorentz und Einstein,
-welche Zeit auf einer verlangsamten Uhr vergeht, um eine untransformierte Länge
-im ruhenden System zurückzulegen und da γ unendlich werden kann, gäbe da kein
-Geschwindigkeitslimit und dann nahmen sie an, daß eine Länge im bewegten System
-um die gleiche Länge verkürzt wäre, nur die Physik funktioniert in Wirklichkeit
-nicht so, denn sie verwechselten die den Längen zugehörigen Bezugssysteme bei
-der Herleitung derGleichungen, ohne es zu merken.
-
 Die relativistische Dehnung läßt unmittelbar über die relativistische
 Dopplerverschiebung messen und und ist darüber empirisch perfekt bestätigt.
 Die relativistische Dopplerverschiebung gibt Aufschluß über die Längenänderung
@@ -402,8 +387,7 @@ gleichen Faktor kürzer sein, um den die Zeit in Vergleich langsamer vergeht.
 Das Zurücklegen der Strecke s im unbewegten System benötigt laut der Uhr im
 bewegten System nur die die Zeit t'=t/γ aber zugleich wird die Strecke s des
 ruhenden Systems gemessen mit einem um γ größeren Maßstab des bewegten Systems
-zu s'=s/γ und die gemessene Geschwindigkeit bleibt somit die gleiche. Bei der
-Lorentzkontraktion ergab sich ja v=s'/(t'γ²) mit dem unerklärlichen γ² darin.
+zu s'=s/γ und die gemessene Geschwindigkeit bleibt somit die gleiche.
 
 Die Kollisionen der Photonen mit der Kugeloberfläche passieren jedoch für alle
 Beobachter gleichermaßen und allein gemessen an der Wellenlänge der Photonen
@@ -556,16 +540,10 @@ berücksichtigte. Ich wußte ehedem ja nicht mal, daß es das gibt.
 Da jedoch sowohl Zentrifugalkraft als auch Gravitationskraft proportional zur
 Masse sind, würde eine relativistische Masseänderung zu keiner Bahnänderung der
 Planeten führen. Zusätzlich zur Zentrifugalkraft und der Shapiro-Verzögerung
-muß jedoch die verlängerte Bahn auf Grund der invertierten Lorentzkontraktion
+muß jedoch die verlängerte Bahn auf Grund der relativistischen Dehnung
 berücksichtigt werden, was zusammen den annähernd gleichen Wert von 41.162" pro
 Jahrhundert für Merkur liefert.
 
-Mein Beileid an alle Physiker und andere Leute, die sich bis hier durchgekämpft
-haben und möglicherweise jetzt um die gestorbene Lorentzkontraktion trauern.
-Das dürfte einigen viel Arbeit verursachen. Das zeigt natürlich auch, daß unser
-Verständnis der relativistischen Physik noch alles andere als vollständig ist.
-Aber mit jeder Frage, die beantwortet wird, öffnet sich auch eine neue
-geheimnisvolle Welt und es stellen sich zugleich viele neue Fragen.
 
 ###############################################################################
 #                                                                             #

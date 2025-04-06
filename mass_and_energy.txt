@@ -366,20 +366,6 @@ for the photons to travel the two way distance to the sphere and back is by γ
 shorter than for our traveller as well for and for this his clocks are running
 by γ slower in comparison to the clocks of the unmoved observer.
 
-Because of this there exist no Lorentz contraction at all. Moving objects and
-atoms are longer and therefore enlarged from the point of view of a stationary
-system but are not shorter in the moving system compared to the ones of a
-stationary system. Moving clocks become as much slower that their atoms and
-atomic transitions are enlarged. The length relation l'/l=γ (resp. a/r=γ) is
-indeed reciprocal to the postulate of the Lorentz contraction which is wrong!
-For the derivation of the Lorentz contraction Lorentz and Einstein were asking
-which time it takes on a slowed down clock for passing by an untransformed
-lenght in the resting frame and because γ can be even infinite that way there
-wouldn't be any speed limit and then they assumed that a length which is
-resting in the moving frame would be shortened the same but the physics doesn't
-work that way because they mixed up the related frames of the lengths within
-the derivation of the equations without realizing it.
-
 The existing relativistic streching can be measured directly by measuring the
 relativistic Doppler effect that can be explained by that and for this it is
 empirically already perfectly confirmed. The relativistic Doppler shift
@@ -399,8 +385,7 @@ relative velocity within it. Moving a distance s witin the resting system takes
 only the shorter time t'=t/γ within the moving system but at the same time the
 distance s withing the resting system is measured with the by γ enlarged scale
 of the moving system that is s'=s/γ and the measured velocity as the quotient
-of both remains the same. In case of the Lorentz contraction the equation
-became v=s'/(t'γ²) with that unexplainable γ² in it.
+of both remains the same.
 
 The collisions of the photons with the surface of the sphere of course happen
 equally for all observers and measured by the wavelengths of the photons also
@@ -554,16 +539,10 @@ the Shapiro-delay. I didn't even know that time that those even exist.
 However, since the centrifugal and gravitational force are both proportional
 to the mass, a relativistic change of the mass would not lead to any change of
 the orbits of the planets. But in addition to the Shapiro-delay and the growth
-of the centrifugal force the overlong orbit due to the now inverted Lorentz
-contraction must be taken into account, which together give quite the same
-value of 41.162” per century for Mercury.
+of the centrifugal force the overlong orbit due to the relativistic longer
+distances must be taken into account, which together give quite the same value
+of 41.162” per century for Mercury.
 
-My condolences to all physicists and other people who did even read until this
-point and possibly are mourning the deceased Lorentz contraction now.
-That may cause some of them a lot of work. Of course this also shows that our
-understanding of the relativistic physics is still far from complete. But with
-every question that is answered, a new mysterious world opens up to us and many
-new questions arise as well.
 
 ###############################################################################
 #                                                                             #
