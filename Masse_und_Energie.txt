@@ -10,8 +10,7 @@
 #                                                                             #
 ###############################################################################
 #                                                                             #
-#  Magnetfelder und die Periheldrehung von Planeten versus E=mc²γ und         #
-#  Lorentz Kontraktion. Irrte Einstein ???                                    #
+#  Magnetfelder und die Periheldrehung von Planeten versus E=mc²γ.            #
 #                                                                             #
 ###############################################################################
 

@@ -10,8 +10,7 @@
 #                                                                             #
 ###############################################################################
 #                                                                             #
-#  Magnetic fields and the perihelion precession of planets versus E=mc²γ     #
-#  and Lorentz contraction. Was Einstein mistaken ???                         #
+#  Magnetic fields and the perihelion precession of planets versus E=mc²γ.    #
 #                                                                             #
 ###############################################################################
 
