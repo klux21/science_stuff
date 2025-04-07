@@ -15,8 +15,11 @@ small list of things that I currently see as a given.
 - E=mc² should only be used as a rough estimate within nuclear physics.
   There exist empirical data of nuclear processes where the released energy
   exceeds E=mc².
-- There exists an elongation of all 2 way distance in a moving frame for a
-  stationary observer with the length relation l=γl'.
+- In case of length measurement with light there exists a streching of all
+  2 way distances in a moving frame for a stationary observer whereby the
+  length relation is l=γl'.
+  However, that doesn't contradicts the Lorentz contraction, that requires
+  positions to be measured at the same time for determining a length.
 - Photons do not change their energy, wavelength or frequency in the
   gravitational field.
 - The measured differences of the frequency of photons in the gravitational
@@ -72,8 +75,10 @@ eine kleine Liste an Dingen, die ich derzeit als gegeben ansehe.
 - E=mc² sollte innerhalb der Kernphysik nur als grober Richtwert gelten.
   Es gibt empirische Daten über nukleare Prozesse, wo die freiwerdende Energie
   E=mc² übersteigt.
-- Es existiert eine Dehnung aller 2 Wege-Distanzen im bewegten Inertialsystem,
-  wobei das Längenverhältnis l=γl' beträgt.
+- Bei Längenmessungen mit Licht existiert eine Dehnung von 2 Wege-Distanzen in
+  einem bewegten Inertialsystem, wobei das Längenverhältnis l=γl' beträgt.
+  Diese Dehnung widerspricht jedoch nicht der Lorentzkontraktion, die eine
+  zeitgleiche Positionsmessung erfordert, um Längen zu bestimmen.
 - Photonen ändern im Gravitationsfeld weder Energie, noch Wellenlänge noch
   Frequenz.
 - Die gemessenen Änderungen von der Frequenz von Photonen im Gravitationsfeld
