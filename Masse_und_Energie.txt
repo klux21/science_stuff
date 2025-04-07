@@ -375,10 +375,14 @@ einer sich bewegenden Länge s' mit
 [58]    s'  = sγ(1 - v²/c²)
 [59]    s'  = s/γ
 
-Wie auch immer, diese Länge gilt nur in Bewegungsrichtung und es ist daher oft
-schwieriger damit umzugehen, wenn es um die Erklärung von physikalischen
-Interaktion von Objekten geht, da sie nicht richtungsunabhängig gilt. Daher
-werden wir sie in unseren nachfolgenden Betrachtungen ignorieren.
+Wie auch immer, diese Länge gilt nur in Bewegungsrichtung und es ist schwierig
+damit umzugehen, wenn es um die Erklärung von physikalischen Interaktion von
+Objekten geht, da sie nicht richtungsunabhängig ist und bezogen auf die sich
+ergebende Form unserer Kugel bräuchten wir sogar ein anders Reflektionsgesetz.
+Diese zeitgleiche Länge ist aber eh nur der Anpassung der Physik an die
+menschliche Wunschvorstellungen von einer zeitlich genau definierten Länge
+geschuldet und wir können diese bei unseren nachfolgenden Betrachtungen
+ignorieren, da sie uns dabei nicht hilft.
 
 Die anderenfalls geltende relativistische Dehnung läßt unmittelbar über die
 relativistische Dopplerverschiebung messen, welche darüber erklärt werden kann
@@ -429,7 +433,7 @@ wird?
 [61]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
 [62]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
 [63]    E = hf(2c² / (γ(c-v)(c+v))
-[64]    E = hf(2c² / ((c²-v²)/γ)
+[64]    E = hf(2c² / (γ(c²-v²))
 [65]    E = hf(2γ² / γ)
 [66]    E = 2hfγ
         ========

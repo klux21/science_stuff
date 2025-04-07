@@ -375,10 +375,14 @@ moving length s' becomes
 
 However, that length applies in direction of motion only and it's often harder
 to deal with that if it comes to explain the physical interactions of objects
-because it doesn't apply indepedent of the direction. That's why we will ignore
-it for our subsequent considerations.
+because it doesn't apply indepedent of the direction and regarding the
+resulting form of our reflecting sphere we would even need a new law of
+reflection. Of course that simultaneous length is rather an adaptation of
+the physics to human wishful thinking about a length that should be well
+defined at a given time but we can ignore that for our subsequent
+considerations, as it is of no help for those anyway.
 
-The otherwise applying relativistic streching can be measured directly by
+Our otherwise applying relativistic stretching can be measured directly by
 measuring the relativistic Doppler effect that can be even explained that way
 and it is empirically already perfectly confirmed by that as well. The
 relativistic Doppler shift provides information about the change of lengths in
@@ -426,7 +430,7 @@ direction of motion and one in the opposite direction?
 [61]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
 [62]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
 [63]    E = hf(2c² / (γ(c-v)(c+v))
-[64]    E = hf(2c² / ((c²-v²)/γ)
+[64]    E = hf(2c² / (γ(c²-v²))
 [65]    E = hf(2γ² / γ)
 [66]    E = 2hfγ
         ========
