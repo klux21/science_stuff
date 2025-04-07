@@ -363,19 +363,33 @@ there exists an angle between the outward and return paths of the light and
 the distance towards the sphere and back to it's center is by γ shorter for the
 traveller than for our unmoved observer in all directions. The time it takes
 for the photons to travel the two way distance to the sphere and back is by γ
-shorter than for our traveller as well for and for this his clocks are running
-by γ slower in comparison to the clocks of the unmoved observer.
+shorter for our traveller as well for and for this his clocks are running by γ
+slower in comparison to the clocks of the unmoved observer.
 
-The existing relativistic streching can be measured directly by measuring the
-relativistic Doppler effect that can be explained by that and for this it is
-empirically already perfectly confirmed. The relativistic Doppler shift
-provides information about the change in length in a particular direction,
-because the frequency of light from the perspective of a traveler remains
-unchanged in all directions compared to that at rest, so all distances measured
-at this wavelength of light in his inertial system. When measuring length, the
-2-way speed of light is relevant. For this the frequencies in two opposite
-directions need to be measured and as we already know, the distances in a
-moving frame are increasing by γ.
+But doesn't that all contradict the Lorentz contraction? Not really, because
+the Lorentz contraction insist on the same time stamp of the position
+measurement of the points of the moving object. In this case the equation of a
+moving length s' becomes
+
+[58]    s'  = sγ(1 - v²/c²)
+[59]    s'  = s/γ
+
+However, that length applies in direction of motion only and it's often harder
+to deal with that if it comes to explain the physical interactions of objects
+because it doesn't apply indepedent of the direction. That's why we will ignore
+it for our subsequent considerations.
+
+The otherwise applying relativistic streching can be measured directly by
+measuring the relativistic Doppler effect that can be even explained that way
+and it is empirically already perfectly confirmed by that as well. The
+relativistic Doppler shift provides information about the change of lengths in
+a particular direction, because distances and the frequency of light from the
+perspective of a traveler remain unchanged in all directions compared to the
+ones at rest and so all distances measured by those wavelengths of light within
+his inertial frame remain unchanged as well. When measuring a length, the 2-way
+speed of light is usually relevant. For that the distance in the two opposite
+directions need to be measured always and as we already know, those distances
+in a moving frame are increasing by γ from the view of a resting observer.
 
 One paradox that no longer applies therefore is that of the speed limits.
 The same relative speed is measured in a moving system as in a stationary
@@ -409,13 +423,13 @@ and are emitted in opposite directions. How does their total energy change if
 our traveller lets the particles annihilate and one photon is emitted in the
 direction of motion and one in the opposite direction?
 
-[58]    E = hf/(γ(c-v)/c) + hf/(γ(c+v)/c)
-[59]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
-[60]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
-[61]    E = hf(2c² / (γ(c-v)(c+v))
-[62]    E = hf(2c² / ((c²-v²)/γ)
-[63]    E = hf(2γ² / γ)
-[64]    E = 2hfγ
+[60]    E = hf/(γ(c-v)/c) + hf/(γ(c+v)/c)
+[61]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
+[62]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
+[63]    E = hf(2c² / (γ(c-v)(c+v))
+[64]    E = hf(2c² / ((c²-v²)/γ)
+[65]    E = hf(2γ² / γ)
+[66]    E = 2hfγ
         ========
 
 The energy of both photons is therefore by γ higher for the stationary
@@ -440,11 +454,8 @@ scale of the moving system.
 And what does this look like in the reference system of the muons? Doesn't the
 distance get longer for them? Sure, but what gets longer is the 2-way distance
 only. Distances in the direction of movement are shortened by √((c-v)/(c+v))
-while they are longer by √((c+v)/(c-v)) in the opposite direction, because this
-corresponds to the change of the wavelengths of light in the direction of
-movement and in the opposite direction, while the wavelengths and thus the
-distances measured by these remain unchanged from the perspective of an
-observer who is moving with the light source.
+while they are longer by √((c+v)/(c-v)) in the opposite direction, because that
+corresponds to the change of the wavelengths of light in those directions.
 
 As a confirmation of E=mcγ there have been several test of the derivation of
 relativistic electrons in a magnetic field for measuring the relation between
@@ -456,12 +467,12 @@ the forces of the electric field growing according to γ². Therefore the
 centrifugal force Fz should grow according γ³ to be in agreement to the results
 of this experiments. The equation of the centrifugal force is given as
 
-[65]    Fz = mv²/r
+[67]    Fz = mv²/r
 
 A relativistic correction of the velocity and the radius gives 
 
-[66]    Fz = mv²γ²/(r/γ)
-[67]    Fz = mv²γ³/r
+[68]    Fz = mv²γ²/(r/γ)
+[69]    Fz = mv²γ³/r
 
 Because the the electric field forces are growing by γ² and the centrifugal
 force grows by γ³ and is increasing be factor γ more than the electric field
@@ -476,13 +487,13 @@ geometrically why are the electrical and gravitational forces increasing by γ²
 as well? Let's have a look at Newton's law of gravitation and the
 gravitational force Fg for that
 
-[68]    Fg = G m1 m2 / r²
+[70]    Fg = G m1 m2 / r²
 
 As we can see, the force between the two masses m1 and m2 is proportionally to
 1/r² and because r becomes shorter by γ for a moving mass the force increases
 relativistically by γ²
 
-[69]    Fg = G m1 m2 γ² / r²
+[71]    Fg = G m1 m2 γ² / r²
 
 The same applies for the force between electric charges that we found in
 equation [2] before. The missing factor γ²γ² of the Lorentz force on the
@@ -539,9 +550,9 @@ the Shapiro-delay. I didn't even know that time that those even exist.
 However, since the centrifugal and gravitational force are both proportional
 to the mass, a relativistic change of the mass would not lead to any change of
 the orbits of the planets. But in addition to the Shapiro-delay and the growth
-of the centrifugal force the overlong orbit due to the relativistic longer
-distances must be taken into account, which together give quite the same value
-of 41.162” per century for Mercury.
+of the centrifugal force and the relativistically stretched orbit must be taken
+into account, which together give quite the same value of 41.162” per century
+for Mercury.
 
 
 ###############################################################################

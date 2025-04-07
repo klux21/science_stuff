@@ -368,16 +368,31 @@ die Photonen benötigen, um die Entfernung zur Sphäre und und zurück zulegen i
 somit für den Reisenden ebenfalls um γ kürzer. Daher müssen auch dessen Uhren
 aus Sicht eines unbewegten Beobachters um γ langsamer gehen.
 
-Die relativistische Dehnung läßt unmittelbar über die relativistische
-Dopplerverschiebung messen und und ist darüber empirisch perfekt bestätigt.
-Die relativistische Dopplerverschiebung gibt Aufschluß über die Längenänderung
-in die jeweilige Richtung, weil die Frequenz von Licht aus Sicht eines
-Mitreisenden in alle Richtungen gegenüber der Ruhe unverändert bleibt und
-ebenso alle an dieser Wellenlänge des Lichts gemessenen Abstände in seinem
-Inertialsystem. Für die Länge ist die 2-Wege Lichtgeschwindigkeit entscheidend.
-Daher müssen die Frequenzen in zwei entgegengesetzte Richtung gemessen werden 
-und wie wir bereits wissen, vergrößern sich die Distanzen im bewegten
-Bezugssystem um γ.
+Aber widerspricht das nicht der Lorentzkontraktion? Nicht wirklich, weil die
+Lorentzkontraktion auf dem gleichen Zeitpunkt der Positionsmessung der Punkte
+des sich bewegenden Objektes besteht. In dem Fall ergibt sich die Gleicheng
+einer sich bewegenden Länge s' mit
+
+[58]    s'  = sγ(1 - v²/c²)
+[59]    s'  = s/γ
+
+Wie auch immer, diese Länge gilt nur in Bewegungsrichtung und es ist daher oft
+schwieriger damit umzugehen, wenn es um die Erklärung von physikalischen
+Interaktion von Objekten geht, da sie nicht richtungsunabhängig gilt. Daher
+werden wir sie in unseren nachfolgenden Betrachtungen ignorieren.
+
+Die anderenfalls geltende relativistische Dehnung läßt unmittelbar über die
+relativistische Dopplerverschiebung messen, welche darüber erklärt werden kann
+und durch welche sie zugleich auch schon empirisch perfekt bestätigt ist.
+Die relativistische Dopplerverschiebung gibt zugleich Aufschluß über die
+Längenänderung in der jeweiligen Richtung, weil Abstände und die Frequenz von
+Licht aus Sicht eines Mitreisenden in alle Richtungen gegenüber der Ruhe
+unverändert bleiben und daher ebenso alle an dieser Wellenlänge des Lichts
+gemessenen Abstände in seinem Inertialsystem. Für eine Längenmessung ist die
+2-Wege Lichtgeschwindigkeit gewöhnlich entscheidend. Daher müssen die Abstände
+stets in zwei entgegengesetzte Richtung gemessen werden und wie wir bereits
+wissen, vergrößern sich die Distanzen in einem bewegten Bezugssystem aus der
+Sicht eines sich nicht bewegenden Beobachters um γ.
 
 Ein Paradoxon, das zugleich entfällt, ist aber das der Geschwindigkeiten. In
 einem bewegten System wird natürlich die gleiche Relativgeschwindigkeit
@@ -411,13 +426,13 @@ enthalten in zueinander entgegengesetzte Richtungen abgestrahlt werden. Wie
 läßt und ein Photon in Bewegungsrichtung und eines in Gegenrichtung abgestrahlt
 wird?
 
-[58]    E = hf/(γ(c-v)/c) + hf/(γ(c+v)/c)
-[59]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
-[60]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
-[61]    E = hf(2c² / (γ(c-v)(c+v))
-[62]    E = hf(2c² / ((c²-v²)/γ)
-[63]    E = hf(2γ² / γ)
-[64]    E = 2hfγ
+[60]    E = hf/(γ(c-v)/c) + hf/(γ(c+v)/c)
+[61]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
+[62]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
+[63]    E = hf(2c² / (γ(c-v)(c+v))
+[64]    E = hf(2c² / ((c²-v²)/γ)
+[65]    E = hf(2γ² / γ)
+[66]    E = 2hfγ
         ========
 
 Die Energie beider Photonen ist für den unbewegten Beobachter somit um γ höher,
@@ -444,9 +459,7 @@ Und wie sieht das im Bezugssystem der Myonen aus? Wird die Distanz für die
 nicht länger? Sicherlich, aber was länger wird ist nur die 2-Wege-Distanz.
 Entfernungen in Bewegungsrichtung sind um √((c-v)/(c+v)) verkürzt während sie
 in Gegenrichtung um √((c+v)/(c-v)) länger sind, denn das entspricht der
-Änderung der Wellenlängen von Licht in Bewegungsrichtung und entgegengesetzt,
-während die Wellenlängen und somit an diesen gemessene Entfernungen aus Sicht
-eines sich mit der Lichtquelle mitbewegenden Beobachters unverändert bleiben.
+Änderung der Wellenlängen von Licht in diesen Richtungen.
 
 Als Beleg für E=mc²γ findet man Experimente, bei welchen eine Ablenkung von
 Elektronen im Magnetfeld auf das Verhältnis von elektrischer Ladung zur Masse
@@ -457,12 +470,12 @@ mit γ geschlossen. Aber wir wissen, wachsen die elektrischen Feldkräfte aber
 mit γ². Somit muß die Zentrifugalkraft Fz mit γ³ wachsen, um in Übereinstimmung
 mit den Experimenten zu stehen. Die Gleichung der Zentrifugalkraft lautet
 
-[65]    Fz = mv²/r
+[67]    Fz = mv²/r
 
 Eine relativistische Korrektur der Geschwindigkeit und des Radius ergibt
 
-[66]    Fz = mv²γ²/(r/γ)
-[67]    Fz = mv²γ³/r
+[68]    Fz = mv²γ²/(r/γ)
+[69]    Fz = mv²γ³/r
 
 Die elektrischen Feldkräfte wachsen somit mit γ² und die Zentrifugalkraft mit
 γ³ und die Zentrifugalkraft wächst somit um γ stärker als die elektrischen
@@ -477,13 +490,13 @@ ergibt, warum wachsen dann die elektrischen und gravitativen Kräfte mit γ²?
 Laßt uns dafür einen Blick auf Newtons Gravitationsgesetz und die
 Gravitationskraft Fg werfen
 
-[68]    Fg = G m1 m2 / r²
+[70]    Fg = G m1 m2 / r²
 
 Wie wir sehen, wächst die Kraft zwischen den beiden Massen m1 und m2
 proportional zu 1/r² und weil r für einen sich bewegenden Körper um γ verkürzt
 ist, wächst die Kraft relativistisch um γ².
 
-[69]    Fg = G m1 m2 γ² / r²
+[71]    Fg = G m1 m2 γ² / r²
 
 Das gleiche gilt analog für die Kraft zwischen elektrischen Ladungen in
 Gleichung [2]. Und der fehlende Faktor γ²γ² der Lorentzkraft auf der rechten
@@ -540,9 +553,9 @@ berücksichtigte. Ich wußte ehedem ja nicht mal, daß es das gibt.
 Da jedoch sowohl Zentrifugalkraft als auch Gravitationskraft proportional zur
 Masse sind, würde eine relativistische Masseänderung zu keiner Bahnänderung der
 Planeten führen. Zusätzlich zur Zentrifugalkraft und der Shapiro-Verzögerung
-muß jedoch die verlängerte Bahn auf Grund der relativistischen Dehnung
-berücksichtigt werden, was zusammen den annähernd gleichen Wert von 41.162" pro
-Jahrhundert für Merkur liefert.
+muß jedoch die verlängerte Umlaufbahn auf Grund der relativistischen Dehnung
+der Längen berücksichtigt werden, was zusammen den annähernd gleichen Wert von
+41.162" pro Jahrhundert für Merkur liefert.
 
 
 ###############################################################################
