@@ -367,35 +367,73 @@ die Photonen benötigen, um die Entfernung zur Sphäre und und zurück zulegen i
 somit für den Reisenden ebenfalls um γ kürzer. Daher müssen auch dessen Uhren
 aus Sicht eines unbewegten Beobachters um γ langsamer gehen.
 
-Aber widerspricht das nicht der Lorentzkontraktion? Nicht wirklich, weil die
-Lorentzkontraktion auf dem gleichen Zeitpunkt der Positionsmessung der Punkte
-des sich bewegenden Objektes besteht. In dem Fall ergibt sich die Gleicheng
-einer sich bewegenden Länge s' mit
+Aber widerspricht das nicht der Lorentzkontraktion? Nun, wir haben ja nur die
+Größe des reflektierenden Ellipsoids hergeleitet, das sich über die Reflektion
+der Kugeloberfläche ergibt und nicht die Größe des sich bewegenden Ellipsoids,
+an dem diese Reflexion erfolgt. Dessen Höhe senkrecht zur Bewegungsrichtung ist
+natürlich r und die Länge ergibt sich aus der Strecke, die sich unsere Kugel
+weiterbewegt hat, während der Licht zu ihr unterwegs ist. Die Kugel bewegt sich
+die Länge s=vt weiter und der Abstand des Brennpunktes des Ellipsoid zu dessen
+Rand ergibt sich mit a+s in Bewegungsrichtung, wo der Rand der Kugel den
+Photonen vorauseilt und a-s in entgegengesetzter Richtung, wo der Rand den
+Photonen entgegenkommt. Über das Verhältnis der Geschwindigkeiten ergibt sich
+der Radius r' der Kugel. In Bewegungsrichtung gilt
 
-[58]    s'  = sγ(1 - v²/c²)
-[59]    s'  = s/γ
+[58]    r' = (a+s)-((a+s)/c)v
+[59]    r' = (rγ+(rγ/c)v)-((rγ+(rγ/c)v)/c)v
+[60]    r' = rγ((1+v/c)-(1+v/c)(v/c))
+[61]    r' = rγ((1+v/c)*(1-v/c))
+[62]    r' = rγ((c+v)*(c-v)/c²))
+[63]    r' = rγ((c²+v²)/c²))
+[64]    r' = rγ (1/γ²)
+[65]    r' = r/γ
+        ========
 
-Wie auch immer, diese Länge gilt nur in Bewegungsrichtung und es ist schwierig
-damit umzugehen, wenn es um die Erklärung von physikalischen Interaktion von
-Objekten geht, da sie nicht richtungsunabhängig ist und bezogen auf die sich
-ergebende Form unserer Kugel bräuchten wir sogar ein anders Reflektionsgesetz.
-Diese zeitgleiche Länge ist aber eh nur der Anpassung der Physik an die
-menschliche Wunschvorstellungen von einer zeitlich genau definierten Länge
-geschuldet und wir können diese bei unseren nachfolgenden Betrachtungen
-ignorieren, da sie uns dabei nicht hilft.
+und entgegengesetzt zur Bewegungsrichtung gilt
 
-Die anderenfalls geltende relativistische Dehnung läßt unmittelbar über die
-relativistische Dopplerverschiebung messen, welche darüber erklärt werden kann
-und durch welche sie zugleich auch schon empirisch perfekt bestätigt ist.
-Die relativistische Dopplerverschiebung gibt zugleich Aufschluß über die
-Längenänderung in der jeweiligen Richtung, weil Abstände und die Frequenz von
-Licht aus Sicht eines Mitreisenden in alle Richtungen gegenüber der Ruhe
-unverändert bleiben und daher ebenso alle an dieser Wellenlänge des Lichts
-gemessenen Abstände in seinem Inertialsystem. Für eine Längenmessung ist die
-2-Wege Lichtgeschwindigkeit gewöhnlich entscheidend. Daher müssen die Abstände
-stets in zwei entgegengesetzte Richtung gemessen werden und wie wir bereits
-wissen, vergrößern sich die Distanzen in einem bewegten Bezugssystem aus der
-Sicht eines sich nicht bewegenden Beobachters um γ.
+[66]    r' = (a-s)+((a-s)/c)v
+[67]    r' = rγ-(rγ/c)v)+((rγ-rγv/c)/c)v
+[68]    r' = rγ(1-v/c)+rγ(1-v/c)(v/c)
+[69]    r' = rγ ((1-v/c)*(1+v/c))
+[70]    r' = rγ ((c-v)*(c+v)/c²)
+[71]    r' = rγ ((c²-v²)/c²))
+[72]    r' = rγ (1/γ²)
+[73]    r' = r/γ
+        ========
+
+Wie wir sehen, ist die Kugel laut unserer Berechnung um γ verkürzt, interagiert
+aber mit Photonen, als ob sie γ² länger wäre und das sogar bei Reflektionen,
+welche bei einer verkürzten Kugel gar nicht mehr dem Reflektionsgesetz
+entsprechen. Ist unsere Kugel physikalisch jetzt kürzer und länger zugleich,
+jeh nachdem worauf man schaut? Was ist da los?
+Nun, wir hatten zwar berechnet, wo der Rand der Kugel zu einem vorgegebenen
+Zeitpunkt gewesen sein sollte, aber haben wir ihn dort wirklich beobachtet?
+Nein. Und wenn vom Zentrum der Kugel Photonen zu deren Rand gesandt und nach
+der Reflektion dort wieder im Zentrum registriert werden, ist die 2-Wege
+Distanz um γ² länger als die berechnete verkürzte Kugel. Was stimmt denn nun
+und wo ist des Rätsels Lösung? Nun, beobachten können wir nur Ereignisse und
+Dinge, die kausal sind und die Kausalität breitet sich mit Lichtgeschwindigkeit
+aus. Und bis die Kausalität der Positionen des Zentrums der Kugel deren Rand
+zusammen mit den Photonen erreicht und umgekehrt, hat unsere Sphäre sich aus
+Sicht eines ruhenden Beobachters stets kausal und somit für ihn auch völlig
+real mit der Geschwindigkeit v weiterbewegt. Die Lorentzkontraktion läßt sich
+berechnen, wir müssen sie aber bei physikalischen Betrachtungen komplett
+ignorieren, weil sie nicht kausal existiert und daher nicht kausal meßbar ist.
+Kausal erscheint die Länge sich bewegender Objekte dagegen um γ gedehnt.
+
+Die kausal existierende und daher geltende relativistische Dehnung läßt sich
+auch unmittelbar über die relativistische Dopplerverschiebung messen, welche
+darüber erklärt werden kann und durch welche sie zugleich auch bereits
+empirisch perfekt bestätigt ist. Die relativistische Dopplerverschiebung gibt
+zugleich Aufschluß über die Längenänderung in der jeweiligen Richtung, weil
+Abstände und die Frequenz von Licht aus Sicht eines Mitreisenden in alle
+Richtungen gegenüber der Ruhe unverändert bleiben und daher ebenso alle an
+dieser Wellenlänge des Lichts gemessenen Abstände in seinem Inertialsystem.
+Für eine Längenmessung ist die 2-Wege Lichtgeschwindigkeit gewöhnlich
+entscheidend. Daher müssen die Abstände stets in zwei entgegengesetzte
+Richtungen gemessen werden und wie wir bereits wissen, vergrößern sich die
+Distanzen in einem bewegten Bezugssystem aus der Sicht eines sich nicht
+bewegenden Beobachters um γ.
 
 Ein Paradoxon, das zugleich entfällt, ist aber das der Geschwindigkeiten. In
 einem bewegten System wird natürlich die gleiche Relativgeschwindigkeit
@@ -429,13 +467,13 @@ enthalten in zueinander entgegengesetzte Richtungen abgestrahlt werden. Wie
 läßt und ein Photon in Bewegungsrichtung und eines in Gegenrichtung abgestrahlt
 wird?
 
-[60]    E = hf/(γ(c-v)/c) + hf/(γ(c+v)/c)
-[61]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
-[62]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
-[63]    E = hf(2c² / (γ(c-v)(c+v))
-[64]    E = hf(2c² / (γ(c²-v²))
-[65]    E = hf(2γ² / γ)
-[66]    E = 2hfγ
+[74]    E = hf/(γ(c-v)/c) + hf/(γ(c+v)/c)
+[75]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
+[76]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
+[77]    E = hf(2c² / (γ(c-v)(c+v))
+[78]    E = hf(2c² / (γ(c²-v²))
+[79]    E = hf(2γ² / γ)
+[80]    E = 2hfγ
         ========
 
 Die Energie beider Photonen ist für den unbewegten Beobachter somit um γ höher,
@@ -473,12 +511,12 @@ mit γ geschlossen. Aber wir wissen, wachsen die elektrischen Feldkräfte aber
 mit γ². Somit muß die Zentrifugalkraft Fz mit γ³ wachsen, um in Übereinstimmung
 mit den Experimenten zu stehen. Die Gleichung der Zentrifugalkraft lautet
 
-[67]    Fz = mv²/r
+[81]    Fz = mv²/r
 
 Eine relativistische Korrektur der Geschwindigkeit und des Radius ergibt
 
-[68]    Fz = mv²γ²/(r/γ)
-[69]    Fz = mv²γ³/r
+[82]    Fz = mv²γ²/(r/γ)
+[83]    Fz = mv²γ³/r
 
 Die elektrischen Feldkräfte wachsen somit mit γ² und die Zentrifugalkraft mit
 γ³ und die Zentrifugalkraft wächst somit um γ stärker als die elektrischen
@@ -493,13 +531,13 @@ ergibt, warum wachsen dann die elektrischen und gravitativen Kräfte mit γ²?
 Laßt uns dafür einen Blick auf Newtons Gravitationsgesetz und die
 Gravitationskraft Fg werfen
 
-[70]    Fg = G m1 m2 / r²
+[84]    Fg = G m1 m2 / r²
 
 Wie wir sehen, wächst die Kraft zwischen den beiden Massen m1 und m2
 proportional zu 1/r² und weil r für einen sich bewegenden Körper um γ verkürzt
 ist, wächst die Kraft relativistisch um γ².
 
-[71]    Fg = G m1 m2 γ² / r²
+[85]    Fg = G m1 m2 γ² / r²
 
 Das gleiche gilt analog für die Kraft zwischen elektrischen Ladungen in
 Gleichung [2]. Und der fehlende Faktor γ²γ² der Lorentzkraft auf der rechten
@@ -559,7 +597,6 @@ Planeten führen. Zusätzlich zur Zentrifugalkraft und der Shapiro-Verzögerung
 muß jedoch die verlängerte Umlaufbahn auf Grund der relativistischen Dehnung
 der Längen berücksichtigt werden, was zusammen den annähernd gleichen Wert von
 41.162" pro Jahrhundert für Merkur liefert.
-
 
 ###############################################################################
 #                                                                             #

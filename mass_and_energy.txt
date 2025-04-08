@@ -365,34 +365,72 @@ for the photons to travel the two way distance to the sphere and back is by γ
 shorter for our traveller as well for and for this his clocks are running by γ
 slower in comparison to the clocks of the unmoved observer.
 
-But doesn't that all contradict the Lorentz contraction? Not really, because
-the Lorentz contraction insist on the same time stamp of the position
-measurement of the points of the moving object. In this case the equation of a
-moving length s' becomes
+But doesn't that all contradict the Lorentz contraction? Well, we have only
+deduced the size of the reflecting ellipsoid that results from the reflection
+of the sphere's surface and not the size of the moving ellipsoid that our
+sphere becomes when it reflects the light. Its height perpendicular to the
+direction of motion is of course r and the length results from the distance
+that our sphere has travelled while the light is travelling towards that.
+The sphere continues to move the length s=vt and the distance between the focal
+point of the ellipsoid and its edge is given by a+s in the direction of
+movement, where the edge of the sphere is ahead of the photons, and a-s in the
+opposite direction, where the edge moves towards the photons. The ratio of the
+velocities gives the radius r' of the sphere. In direction of motion we have
 
-[58]    s'  = sγ(1 - v²/c²)
-[59]    s'  = s/γ
+[58]    r' = (a+s)-((a+s)/c)v
+[59]    r' = (rγ+(rγ/c)v)-((rγ+(rγ/c)v)/c)v
+[60]    r' = rγ((1+v/c)-(1+v/c)(v/c))
+[61]    r' = rγ((1+v/c)*(1-v/c))
+[62]    r' = rγ((c+v)*(c-v)/c²))
+[63]    r' = rγ((c²+v²)/c²))
+[64]    r' = rγ (1/γ²)
+[65]    r' = r/γ
+        ========
 
-However, that length applies in direction of motion only and it's often harder
-to deal with that if it comes to explain the physical interactions of objects
-because it doesn't apply indepedent of the direction and regarding the
-resulting form of our reflecting sphere we would even need a new law of
-reflection. Of course that simultaneous length is rather an adaptation of
-the physics to human wishful thinking about a length that should be well
-defined at a given time but we can ignore that for our subsequent
-considerations, as it is of no help for those anyway.
+and in the opposite direction we have the following
 
-Our otherwise applying relativistic stretching can be measured directly by
-measuring the relativistic Doppler effect that can be even explained that way
-and it is empirically already perfectly confirmed by that as well. The
-relativistic Doppler shift provides information about the change of lengths in
-a particular direction, because distances and the frequency of light from the
-perspective of a traveler remain unchanged in all directions compared to the
-ones at rest and so all distances measured by those wavelengths of light within
-his inertial frame remain unchanged as well. When measuring a length, the 2-way
-speed of light is usually relevant. For that the distance in the two opposite
-directions need to be measured always and as we already know, those distances
-in a moving frame are increasing by γ from the view of a resting observer.
+[66]    r' = (a-s)+((a-s)/c)v
+[67]    r' = rγ-(rγ/c)v)+((rγ-rγv/c)/c)v
+[68]    r' = rγ(1-v/c)+rγ(1-v/c)(v/c)
+[69]    r' = rγ ((1-v/c)*(1+v/c))
+[70]    r' = rγ ((c-v)*(c+v)/c²)
+[71]    r' = rγ ((c²-v²)/c²))
+[72]    r' = rγ (1/γ²)
+[73]    r' = r/γ
+        ========
+
+As we can see, according to our calculation, the sphere is shortened by γ, but
+interacts with the photons as if it were γ² longer, even in the case of
+reflections, which no longer corresponds to the law of reflection in a
+shortened sphere. Is our sphere physically shorter and longer at the same time,
+depending on what you look at? What's going on?
+Well, we had calculated where the edge of the sphere should have been at a
+given point in time, but did we really observe it there? Not at all. And if
+photons are sent from the centre of the sphere to its edge and are registered
+again at the centre after being reflected, the 2-way distance is by γ² longer
+than the calculated shortened sphere. So what is true and where is the solution
+to that riddle? Well, we can only observe events and things that are causal and
+the causality moves at the speed of light. And until the causality of the
+positions of the centre of the sphere reaches its edge together with the
+photons and vice versa, our sphere has always moved forward causally from the
+point of view of an observer at rest and that happens also completely real for
+him at the speed v. The Lorentz contraction can be calculated, but we must
+completely ignore it for physical considerations because it does not exist
+causally and therefore it cannot be measured causally. Causally, however, the
+length of moving objects appears to be stretched by γ.
+
+That causal existing and for this applying relativistic stretching can be
+measured directly by measuring the relativistic Doppler effect which can be
+even explained that way and it is empirically already perfectly confirmed by
+that as well. The relativistic Doppler shift provides information about the
+change of lengths in a particular direction, because distances and the
+frequency of light from the perspective of a traveler remain unchanged in all
+directions compared to the ones at rest and so all distances measured by those
+wavelengths of light within this inertial frame remain unchanged as well. When
+measuring a length, the 2-way speed of light is usually relevant. For that the
+distance in the two opposite directions need to be measured always and as we
+already know, those distances in a moving frame are increasing by γ from the
+view of a resting observer.
 
 One paradox that no longer applies therefore is that of the speed limits.
 The same relative speed is measured in a moving system as in a stationary
@@ -426,13 +464,13 @@ and are emitted in opposite directions. How does their total energy change if
 our traveller lets the particles annihilate and one photon is emitted in the
 direction of motion and one in the opposite direction?
 
-[60]    E = hf/(γ(c-v)/c) + hf/(γ(c+v)/c)
-[61]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
-[62]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
-[63]    E = hf(2c² / (γ(c-v)(c+v))
-[64]    E = hf(2c² / (γ(c²-v²))
-[65]    E = hf(2γ² / γ)
-[66]    E = 2hfγ
+[74]    E = hf/(γ(c-v)/c) + hf/(γ(c+v)/c)
+[75]    E = hf/(1/(γ(c-v)/c) + 1/(γ(c+v)/c))
+[76]    E = hf((cγ(c+v) + cγ(c-v)) / (γ(c-v) γ(c+v))
+[77]    E = hf(2c² / (γ(c-v)(c+v))
+[78]    E = hf(2c² / (γ(c²-v²))
+[79]    E = hf(2γ² / γ)
+[80]    E = 2hfγ
         ========
 
 The energy of both photons is therefore by γ higher for the stationary
@@ -470,12 +508,12 @@ the forces of the electric field growing according to γ². Therefore the
 centrifugal force Fz should grow according γ³ to be in agreement to the results
 of this experiments. The equation of the centrifugal force is given as
 
-[67]    Fz = mv²/r
+[81]    Fz = mv²/r
 
 A relativistic correction of the velocity and the radius gives 
 
-[68]    Fz = mv²γ²/(r/γ)
-[69]    Fz = mv²γ³/r
+[82]    Fz = mv²γ²/(r/γ)
+[83]    Fz = mv²γ³/r
 
 Because the the electric field forces are growing by γ² and the centrifugal
 force grows by γ³ and is increasing be factor γ more than the electric field
@@ -490,13 +528,13 @@ geometrically why are the electrical and gravitational forces increasing by γ²
 as well? Let's have a look at Newton's law of gravitation and the
 gravitational force Fg for that
 
-[70]    Fg = G m1 m2 / r²
+[84]    Fg = G m1 m2 / r²
 
 As we can see, the force between the two masses m1 and m2 is proportionally to
 1/r² and because r becomes shorter by γ for a moving mass the force increases
 relativistically by γ²
 
-[71]    Fg = G m1 m2 γ² / r²
+[85]    Fg = G m1 m2 γ² / r²
 
 The same applies for the force between electric charges that we found in
 equation [2] before. The missing factor γ²γ² of the Lorentz force on the
@@ -556,7 +594,6 @@ the orbits of the planets. But in addition to the Shapiro-delay and the growth
 of the centrifugal force and the relativistically stretched orbit must be taken
 into account, which together give quite the same value of 41.162” per century
 for Mercury.
-
 
 ###############################################################################
 #                                                                             #
