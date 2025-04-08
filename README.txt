@@ -79,8 +79,8 @@ eine kleine Liste an Dingen, die ich derzeit als gegeben ansehe.
 - Bei Längenmessungen mit Licht existiert eine Dehnung von 2 Wege-Distanzen in
   einem bewegten Inertialsystem, wobei das Längenverhältnis l=γl' beträgt.
   Diese Dehnung widerspricht nicht der Lorentzkontraktion, welche eine
-  zeitgleiche Positionsmessung erfordert, um Längen zu bestimmen, was aber
-  kausal unmöglich ist und nur rein rechnerisch geht.
+  zeitgleiche Positionsmessung erfordert, um Längen zu bestimmen, was kausal
+  unmöglich ist und nur rechnerisch geht.
 - Photonen ändern im Gravitationsfeld weder Energie, noch Wellenlänge noch
   Frequenz.
 - Die gemessenen Änderungen von der Frequenz von Photonen im Gravitationsfeld
