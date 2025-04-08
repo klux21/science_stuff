@@ -18,8 +18,9 @@ small list of things that I currently see as a given.
 - In case of length measurement with light there exists a streching of all
   2 way distances in a moving frame for a stationary observer whereby the
   length relation is l=γl'.
-  However, that doesn't contradicts the Lorentz contraction, that requires
-  positions to be measured at the same time for determining a length.
+  However, that elongation does not contradict the Lorentz contraction, that
+  demands a simultaneous position measurement to determine lengths, which is
+  causally impossible and can only be done by calculation.
 - Photons do not change their energy, wavelength or frequency in the
   gravitational field.
 - The measured differences of the frequency of photons in the gravitational
@@ -77,8 +78,9 @@ eine kleine Liste an Dingen, die ich derzeit als gegeben ansehe.
   E=mc² übersteigt.
 - Bei Längenmessungen mit Licht existiert eine Dehnung von 2 Wege-Distanzen in
   einem bewegten Inertialsystem, wobei das Längenverhältnis l=γl' beträgt.
-  Diese Dehnung widerspricht jedoch nicht der Lorentzkontraktion, die eine
-  zeitgleiche Positionsmessung erfordert, um Längen zu bestimmen.
+  Diese Dehnung widerspricht nicht der Lorentzkontraktion, welche eine
+  zeitgleiche Positionsmessung erfordert, um Längen zu bestimmen, was aber
+  kausal unmöglich ist und nur rein rechnerisch geht.
 - Photonen ändern im Gravitationsfeld weder Energie, noch Wellenlänge noch
   Frequenz.
 - Die gemessenen Änderungen von der Frequenz von Photonen im Gravitationsfeld
