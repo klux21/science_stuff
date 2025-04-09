@@ -415,7 +415,9 @@ Genau, die sich mitbewegende Lorentz kontrahierte Sphäre von der die Position
 der Punkte zeitgleich gemessen wird, ist nur eine dumme Idee. Es bewegt sich
 die Kugel mit dem Reisenden und keine verkürzte, die eine ruhende Ellipse
 bewirkt. Es ist aber interessant, daß sie sich bei falscher Mathematik ergibt.
-Tut mir leid Leute, aber da gibt es in der Tat keine Lorentzkontraktion!
+Tut mir leid Leute, aber da gibt es in der Tat keine Lorentzkontraktion! Das
+Längenverhältnis von Objekten ist mit l'/l=γ (bzw. mit a/r=γ) reziprok zu
+dem der Lorentzkontraktion.
 
 Die Sache ist nicht völlig trivial, wie man auch an der Richtungsabhängigkeit
 der Wellenlänge von Photonen sieht, die für den Reisenden nicht existiert.

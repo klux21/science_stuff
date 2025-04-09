@@ -416,7 +416,8 @@ Well, that co-moving Lorentz contracted shpere where the position of all points
 of the sphere are measured at the same time is just a wrong idea. Moving is the
 sphere with the traveller but not a shortened one that causes a stationary
 ellipse. However it is quite interesting that it results from such wrong math.
-Sorry guys, but there exist indeed no Lorentz contraction!
+Sorry guys, but there exist indeed no Lorentz contraction! The length relation
+l'/l=γ (resp. a/r=γ) is reciprocal to the one of the Lorentz contraction.
 
 The matter is not so trivial, as can be seen from the directional dependence of
 the wavelength of photons, which does not exist for the traveller. However we
