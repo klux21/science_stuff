@@ -369,15 +369,16 @@ aus Sicht eines unbewegten Beobachters um γ langsamer gehen.
 
 Aber widerspricht das nicht der Lorentzkontraktion? Nun, wir haben ja nur die
 Größe des reflektierenden Ellipsoids hergeleitet, das sich über die Reflektion
-der Kugeloberfläche ergibt und nicht die Größe des sich bewegenden Ellipsoids,
-an dem diese Reflexion erfolgt. Dessen Höhe senkrecht zur Bewegungsrichtung ist
-natürlich r und die Länge ergibt sich aus der Strecke, die sich unsere Kugel
-weiterbewegt hat, während der Licht zu ihr unterwegs ist. Die Kugel bewegt sich
-die Länge s=vt weiter und der Abstand des Brennpunktes des Ellipsoid zu dessen
-Rand ergibt sich mit a+s in Bewegungsrichtung, wo der Rand der Kugel den
-Photonen vorauseilt und a-s in entgegengesetzter Richtung, wo der Rand den
-Photonen entgegenkommt. Über das Verhältnis der Geschwindigkeiten ergibt sich
-der Radius r' der Kugel. In Bewegungsrichtung gilt
+der Kugeloberfläche ergibt und können analog Größe eines sich mit der Kugel
+mitbewegenden Ellipsoids berechnen, aus dessen Zentrum gesandt wird und an dem
+die Reflexionen erfolgen. Dessen Höhe senkrecht zur Bewegungsrichtung wäre r
+und die Länge ergibt sich aus der Strecke, die sich unsere Kugel weiterbewegt
+hat, während der Licht zu ihr unterwegs ist. Die Kugel bewegt sich die Länge
+s=vt weiter und der Abstand des Brennpunktes des Ellipsoid zu dessen Rand
+ergibt sich mit a+s in Bewegungsrichtung, wo der Rand der Kugel den Photonen
+vorauseilt und a-s in entgegengesetzter Richtung, wo der Rand den Photonen
+entgegenkommt. Über das Verhältnis der Geschwindigkeiten ergibt sich der
+Radius r' der Kugel. In Bewegungsrichtung gilt
 
 [58]    r' = (a+s)-((a+s)/c)v
 [59]    r' = (rγ+(rγ/c)v)-((rγ+(rγ/c)v)/c)v
@@ -403,25 +404,30 @@ und entgegengesetzt zur Bewegungsrichtung gilt
 
 Wie wir sehen, ist die Kugel laut unserer Berechnung um γ verkürzt, interagiert
 aber mit Photonen, als ob sie γ² länger wäre und das sogar bei Reflektionen,
-welche bei einer verkürzten Kugel gar nicht mehr dem Reflektionsgesetz
+welche bei einer verkürzten Kugel jedoch gar nicht mehr dem Reflektionsgesetz
 entsprechen. Ist unsere Kugel physikalisch jetzt kürzer und länger zugleich,
 jeh nachdem worauf man schaut? Was ist da los?
-Nun, wir hatten zwar berechnet, wo der Rand der Kugel zu einem vorgegebenen
-Zeitpunkt gewesen sein sollte, aber haben wir ihn dort wirklich beobachtet?
-Nein. Und wenn vom Zentrum der Kugel Photonen zu deren Rand gesandt und nach
-der Reflektion dort wieder im Zentrum registriert werden, ist die 2-Wege
-Distanz um γ² länger als die berechnete verkürzte Kugel. Was stimmt denn nun
-und wo ist des Rätsels Lösung? Nun, beobachten können wir nur Ereignisse und
-Dinge, die kausal sind und die Kausalität breitet sich mit Lichtgeschwindigkeit
-aus. Und bis die Kausalität der Positionen des Zentrums der Kugel deren Rand
-zusammen mit den Photonen erreicht und umgekehrt, hat unsere Sphäre sich aus
-Sicht eines ruhenden Beobachters stets kausal und somit für ihn auch völlig
-real mit der Geschwindigkeit v weiterbewegt. Die Lorentzkontraktion läßt sich
-berechnen, wir müssen sie aber bei physikalischen Betrachtungen komplett
-ignorieren, weil sie nicht kausal existiert und daher nicht kausal meßbar ist.
-Kausal erscheint die Länge sich bewegender Objekte dagegen um γ gedehnt.
+Wenn vom Zentrum der Kugel Photonen zu deren Rand gesandt und nach der
+Reflektion dort wieder im Zentrum registriert werden, ist die 2-Wege Distanz um
+γ² länger als bei der sich bewegenden verkürzte Kugel. Was stimmt denn nun und
+wo ist des Rätsels Lösung? 
+Genau, die sich mitbewegende Lorentz kontrahierte Sphäre von der die Position
+der Punkte zeitgleich gemessen wird, ist nur eine dumme Idee. Es bewegt sich
+die Kugel mit dem Reisenden und keine verkürzte, die eine ruhende Ellipse
+bewirkt. Es ist aber interessant, daß sie sich bei falscher Mathematik ergibt.
+Tut mir leid Leute, aber da gibt es in der Tat keine Lorentzkontraktion!
 
-Die kausal existierende und daher geltende relativistische Dehnung läßt sich
+Die Sache ist nicht völlig trivial, wie man auch an der Richtungsabhängigkeit
+der Wellenlänge von Photonen sieht, die für den Reisenden nicht existiert.
+Wir können aber voraussetzen, das der Abstand der Kugel von deren Zentrum
+gemessen an der ausgesandten Wellenlänge des ausgesandten Lichts, für alle
+Beobachter und richtungsunabhängig gleich bleibt.
+Das ist nur möglich, wenn der Abstand von dem Zentrum und der Kugeloberfläche
+richtungsabhängig transformiert. Darauf bezogen deckt sich der Mittelpunkt M
+der Kugel beim Senden des Lichts mit dem Brennpunkt F und beim Empfang des
+Lichts dem Brennpunkt F' in der unserer Skizze.
+
+Die real existierende und daher geltende relativistische Dehnung läßt sich
 auch unmittelbar über die relativistische Dopplerverschiebung messen, welche
 darüber erklärt werden kann und durch welche sie zugleich auch bereits
 empirisch perfekt bestätigt ist. Die relativistische Dopplerverschiebung gibt
@@ -443,7 +449,8 @@ gleichen Faktor kürzer sein, um den die Zeit in Vergleich langsamer vergeht.
 Das Zurücklegen der Strecke s im unbewegten System benötigt laut der Uhr im
 bewegten System nur die die Zeit t'=t/γ aber zugleich wird die Strecke s des
 ruhenden Systems gemessen mit einem um γ größeren Maßstab des bewegten Systems
-zu s'=s/γ und die gemessene Geschwindigkeit bleibt somit die gleiche.
+zu s'=s/γ und die gemessene Geschwindigkeit bleibt somit die gleiche. Bei der
+Lorentzkontraktion ergibt sich da ja v=γ²s'/t' mit dem unerklärlichen γ² darin.
 
 Die Kollisionen der Photonen mit der Kugeloberfläche passieren jedoch für alle
 Beobachter gleichermaßen und allein gemessen an der Wellenlänge der Photonen
@@ -597,6 +604,13 @@ Planeten führen. Zusätzlich zur Zentrifugalkraft und der Shapiro-Verzögerung
 muß jedoch die verlängerte Umlaufbahn auf Grund der relativistischen Dehnung
 der Längen berücksichtigt werden, was zusammen den annähernd gleichen Wert von
 41.162" pro Jahrhundert für Merkur liefert.
+
+Mein Beileid an alle Physiker und andere Leute, die sich bis hier durchgequält
+haben und möglicherweise jetzt um die gestorbene Lorentzkontraktion trauern.
+Das dürfte einigen viel Arbeit verursachen. Doch das zeigt auch, daß unser
+Verständnis der relativistischen Physik noch alles andere als vollständig ist.
+Aber mit jeder Frage, die beantwortet wird, öffnet sich auch eine neue
+geheimnisvolle Welt und es stellen sich zugleich viele neue Fragen.
 
 ###############################################################################
 #                                                                             #
