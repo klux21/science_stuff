@@ -424,8 +424,8 @@ gemessen an der ausgesandten Wellenlänge des ausgesandten Lichts, für alle
 Beobachter und richtungsunabhängig gleich bleibt.
 Das ist nur möglich, wenn der Abstand von dem Zentrum und der Kugeloberfläche
 richtungsabhängig transformiert. Darauf bezogen deckt sich der Mittelpunkt M
-der Kugel beim Senden des Lichts mit dem Brennpunkt F und beim Empfang des
-Lichts dem Brennpunkt F' in der unserer Skizze.
+der Kugel beim Senden des Lichts mit dem Brennpunkt F und beim nachfolgen
+Empfang des Lichts dem Brennpunkt F' in der unserer Skizze.
 
 Die real existierende und daher geltende relativistische Dehnung läßt sich
 auch unmittelbar über die relativistische Dopplerverschiebung messen, welche
