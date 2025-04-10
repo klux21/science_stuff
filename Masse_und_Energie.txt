@@ -367,18 +367,20 @@ die Photonen benötigen, um die Entfernung zur Sphäre und und zurück zulegen i
 somit für den Reisenden ebenfalls um γ kürzer. Daher müssen auch dessen Uhren
 aus Sicht eines unbewegten Beobachters um γ langsamer gehen.
 
-Aber widerspricht das nicht der Lorentzkontraktion? Nun, wir haben ja nur die
-Größe des reflektierenden Ellipsoids hergeleitet, das sich über die Reflektion
-der Kugeloberfläche ergibt und können analog Größe eines sich mit der Kugel
-mitbewegenden Ellipsoids berechnen, aus dessen Zentrum gesandt wird und an dem
-die Reflexionen erfolgen. Dessen Höhe senkrecht zur Bewegungsrichtung wäre r
-und die Länge ergibt sich aus der Strecke, die sich unsere Kugel weiterbewegt
-hat, während der Licht zu ihr unterwegs ist. Die Kugel bewegt sich die Länge
-s=vt weiter und der Abstand des Brennpunktes des Ellipsoid zu dessen Rand
-ergibt sich mit a+s in Bewegungsrichtung, wo der Rand der Kugel den Photonen
-vorauseilt und a-s in entgegengesetzter Richtung, wo der Rand den Photonen
-entgegenkommt. Über das Verhältnis der Geschwindigkeiten ergibt sich der
-Radius r' der Kugel. In Bewegungsrichtung gilt
+Aber widerspricht das nicht der Lorentzkontraktion? Nicht wirklich. Aber diese
+erfordert, daß die Positionen der Punkte zur selben Zeit gemessen werden.  
+Nun, wir haben bereits die Größe des reflektierenden Ellipsoids hergeleitet,
+das sich über die Reflektion der Kugeloberfläche ergeben muß. Wir können das
+auch als ruhend annehmen, um dieser Forderung zu entsprechen und können analog
+Größe eines sich mit der Kugel mitbewegenden Ellipsoids berechnen, aus dessen
+Zentrum gesandt wird und an dem die Reflexionen erfolgen. Dessen Höhe senkrecht
+zur Bewegungsrichtung wäre r und die Länge ergibt sich aus der Strecke, die
+sich unsere Kugel weiterbewegt hat, während der Licht zu ihr unterwegs ist. Die
+Kugel bewegt sich die Länge s=vt weiter und der Abstand des Brennpunktes des
+Ellipsoid zu dessen Rand ergibt sich mit a+s in Bewegungsrichtung, wo der Rand
+der Kugel den Photonen vorauseilt und a-s in entgegengesetzter Richtung, wo der
+Rand den Photonen entgegenkommt. Über das Verhältnis der Geschwindigkeiten
+ergibt sich der Radius r' der Kugel. In Bewegungsrichtung gilt
 
 [58]    r' = (a+s)-((a+s)/c)v
 [59]    r' = (rγ+(rγ/c)v)-((rγ+(rγ/c)v)/c)v
@@ -412,12 +414,14 @@ Reflektion dort wieder im Zentrum registriert werden, ist die 2-Wege Distanz um
 γ² länger als bei der sich bewegenden verkürzte Kugel. Was stimmt denn nun und
 wo ist des Rätsels Lösung? 
 Genau, die sich mitbewegende Lorentz kontrahierte Sphäre von der die Position
-der Punkte zeitgleich gemessen wird, ist nur eine dumme Idee. Es bewegt sich
-die Kugel mit dem Reisenden und keine verkürzte, die eine ruhende Ellipse
-bewirkt. Es ist aber interessant, daß sie sich bei falscher Mathematik ergibt.
-Tut mir leid Leute, aber da gibt es in der Tat keine Lorentzkontraktion! Das
-Längenverhältnis von Objekten ist mit l'/l=γ (bzw. mit a/r=γ) reziprok zu
-dem der Lorentzkontraktion.
+der Punkte zeitgleich gemessen wird, ist nur eine eher irreführende Idee und es
+es besser sich auf die 2 Wege-Distanzmessung mit Licht zu verlassen.
+Es bewegt sich ja die Kugel mit dem Reisenden und keine verkürzte Sphäre, die
+eine ruhende Ellipse bewirkt und weder das Reflektionsgesetz noch die dann
+unerklärliche Dopplerverschiebung oder die langsamer gehenden Uhren ergeben
+sich daraus logisch und sprechen für diesen Ansatz. Das effektive physikalische
+Längenverhältnis von Objekten ist mit l'/l=γ (bzw. mit a/r=γ) reziprok zu dem
+der Lorentzkontraktion, auch wenn das nicht dem klassischen Ansatz entspricht.
 
 Die Sache ist nicht völlig trivial, wie man auch an der Richtungsabhängigkeit
 der Wellenlänge von Photonen sieht, die für den Reisenden nicht existiert.
@@ -606,13 +610,6 @@ Planeten führen. Zusätzlich zur Zentrifugalkraft und der Shapiro-Verzögerung
 muß jedoch die verlängerte Umlaufbahn auf Grund der relativistischen Dehnung
 der Längen berücksichtigt werden, was zusammen den annähernd gleichen Wert von
 41.162" pro Jahrhundert für Merkur liefert.
-
-Mein Beileid an alle Physiker und andere Leute, die sich bis hier durchgequält
-haben und möglicherweise jetzt um die gestorbene Lorentzkontraktion trauern.
-Das dürfte einigen viel Arbeit verursachen. Doch das zeigt auch, daß unser
-Verständnis der relativistischen Physik noch alles andere als vollständig ist.
-Aber mit jeder Frage, die beantwortet wird, öffnet sich auch eine neue
-geheimnisvolle Welt und es stellen sich zugleich viele neue Fragen.
 
 ###############################################################################
 #                                                                             #

@@ -18,7 +18,10 @@ small list of things that I currently see as a given.
 - In case of length measurement with light there exists a streching of all
   2 way distances in a moving frame for a stationary observer whereby the
   length relation is l=γl'.
-  That is the opposite of a Lorentz contraction.
+  That seems the opposite of a Lorentz contraction but doesn't really
+  contradicts that because the Lorentz contraction demands position
+  measurements of endpoints at the same time that doesn't happens then but
+  inverts the length relation.
 - Photons do not change their energy, wavelength or frequency in the
   gravitational field.
 - The measured differences of the frequency of photons in the gravitational
@@ -76,7 +79,10 @@ eine kleine Liste an Dingen, die ich derzeit als gegeben ansehe.
   E=mc² übersteigt.
 - Bei Längenmessungen mit Licht existiert eine Dehnung von 2 Wege-Distanzen in
   bewegten Inertialsystemen, wobei das Längenverhältnis l=γl' beträgt.
-  Dieses ist das Gegenteil einer Lorentzkontraktion.
+  Dieses scheint das Gegenteil einer Lorentzkontraktion aber widerspricht ihr
+  nicht wirklich, weil die Lorentzkontraktion eine Positionmessung der
+  Endpunkte zur gleichen Zeit fordert, die dabei nicht passiert und das
+  Längenverhältnis invertiert.
 - Photonen ändern im Gravitationsfeld weder Energie, noch Wellenlänge noch
   Frequenz.
 - Die gemessenen Änderungen von der Frequenz von Photonen im Gravitationsfeld
